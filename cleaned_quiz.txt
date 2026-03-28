@@ -1,0 +1,123 @@
+﻿
+> export const QUIZZES: Quiz[] = [
+    {
+      "id": "ch1-quiz",
+      "chapterId": 1,
+      "title": "What is Psychology? — Quiz",
+      "titleKa": "რა არის ფსიქოლოგია? — ვიქტორინა",
+      "questions": [
+        {
+          "id": "q1-1",
+          "question": "Who established the first psychology laboratory in 
+1879?",
+          "questionKa": "ვინ დააარსა 1879 წელს პირველი ფსიქოლოგიის 
+ლაბორატორია?",
+          "options": [
+            "Sigmund Freud",
+            "Wilhelm Wundt",
+            "William James",
+            "John Watson"
+          ],
+          "optionsKa": [
+            "ზიგმუნდ ფროიდმა",
+            "ვილჰელმ ვუნდტმა",
+            "უილიამ ჯეიმსმა",
+            "ჯონ უოტსონმა"
+          ],
+          "correctIndex": 1,
+          "explanation": "Wilhelm Wundt founded the first psychology lab at 
+the University of Leipzig in 1879.",
+          "explanationKa": "ვილჰელმ ვუნდტმა დააარსა პირველი ფსიქოლოგიის 
+ლაბორატორია ლაიფციგის უნივერსიტეტში 1879 წელს.",
+          "optionsRu": [
+            "Зигмунд Фрейд",
+            "Вильгельм Вундт",
+            "Уильям Джеймс",
+            "Джон Ватсон"
+          ],
+          "optionsHy": [
+            "Զիգմունդ Ֆրեյդ",
+            "Վիլհելմ Վունդտ",
+            "Ուիլյամ Ջեյմս",
+            "Ջոն Ուոթսոն"
+          ],
+          "optionsAz": [
+            "Ziqmund Freyd",
+            "Vilhelm Vundt",
+            "William James",
+            "John Watson"
+          ],
+          "questionAz": "1879-cu ildə ilk psixologiya laboratoriyasını kim 
+yaradıb?",
+          "explanationRu": "Вильгельм Вундт основал первую психологическую 
+лабораторию в Лейпцигском университете в 1879 году.",
+          "questionHy": "Ո՞վ հիմնեց առաջին հոգեբանական լաբորատորիան 1879 
+թվականին:",
+          "explanationHy": "Վիլհելմ Վունդտը հիմնադրել է առաջին հոգեբանական 
+լաբորատորիան Լայպցիգի համալսարանում 1879 թվականին:",
+          "questionRu": "Кто основал первую психологическую лабораторию в 1879 
+году?",
+          "explanationAz": "Vilhelm Vundt 1879-cu ildə Leypsiq Universitetində 
+ilk psixologiya laboratoriyasını qurdu."
+        },
+        {
+          "id": "q1-2",
+          "question": "Psychology is best defined as the scientific study of:",
+          "questionKa": "ფსიქოლოგია შესწავლის საგანია:",
+          "options": [
+            "The mind only",
+            "Behavior and mental processes",
+            "Emotions",
+            "Brain chemistry"
+          ],
+          "optionsKa": [
+            "გონება",
+            "ქცევა და ფსიქიკური პროცესები",
+            "ემოციები",
+            "ტვინის ქიმია"
+          ],
+          "correctIndex": 1,
+          "explanation": "Psychology is the scientific study of both behavior 
+and mental processes.",
+          "explanationKa": "ფსიქოლოგია არის ქცევისა და ფსიქიკური პროცესების 
+შემსწავლელი მეცნიერება.",
+          "optionsRu": [
+            "Только разум",
+            "Поведение и психические процессы",
+            "Эмоции",
+            "Химия мозга"
+          ],
+          "optionsHy": [
+            "Միայն միտքը",
+            "Վարքագիծ և մտավոր գործընթացներ",
+            "Զգացմունքներ",
+            "Ուղեղի քիմիա"
+          ],
+          "optionsAz": [
+            "Yalnız ağıl",
+            "Davranış və psixi proseslər",
+            "Emosiyalar",
+            "Beyin kimyası"
+          ],
+          "questionRu": "Психологию лучше всего определить как научное 
+исследование:",
+          "explanationRu": "Психология – это научное исследование поведения и 
+психических процессов.",
+          "explanationAz": "Psixologiya həm davranış, həm də psixi proseslərin 
+elmi tədqiqidir.",
+          "questionHy": "Հոգեբանությունը լավագույնս սահմանվում է որպես 
+հետևյալի գիտական ​​ուսումնասիրություն.",
+          "questionAz": "Psixologiya ən yaxşı elmi araşdırma kimi müəyyən 
+edilir:",
+          "explanationHy": "Հոգեբանությունը գիտական ​​ուսումնասիրություն է 
+ինչպես վարքի, այնպես էլ մտավոր գործընթացների մասին:"
+        },
+        {
+          "id": "q1-3",
+          "question": "Which perspective emphasizes observable behavior?",
+          "questionKa": "ფსიქოლოგიის რომელი მიმართულება ფოკუსირდება 
+დაკვირვებად ქცევაზე?",
+          "options": [
+            "Psychoanalytic",
+
+

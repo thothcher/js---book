@@ -1,0 +1,2323 @@
+﻿export const QUIZZES: Quiz[] = [
+  {
+    "id": "ch1-quiz",
+    "chapterId": 1,
+    "title": "What is Psychology? — Quiz",
+    "titleKa": "რა არის ფსიქოლოგია? — ვიქტორინა",
+    "questions": [
+      {
+        "id": "q1-1",
+        "question": "Who established the first psychology laboratory in 1879?",
+        "questionKa": "ვინ დააარსა 1879 წელს პირველი ფსიქოლოგიის ლაბორატორია?",
+        "options": [
+          "Sigmund Freud",
+          "Wilhelm Wundt",
+          "William James",
+          "John Watson"
+        ],
+        "optionsKa": [
+          "ზიგმუნდ ფროიდმა",
+          "ვილჰელმ ვუნდტმა",
+          "უილიამ ჯეიმსმა",
+          "ჯონ უოტსონმა"
+        ],
+        "correctIndex": 1,
+        "explanation": "Wilhelm Wundt founded the first psychology lab at the University of Leipzig in 1879.",
+        "explanationKa": "ვილჰელმ ვუნდტმა დააარსა პირველი ფსიქოლოგიის ლაბორატორია ლაიფციგის უნივერსიტეტში 1879 წელს.",
+        "optionsRu": [
+          "Зигмунд Фрейд",
+          "Вильгельм Вундт",
+          "Уильям Джеймс",
+          "Джон Ватсон"
+        ],
+        "optionsHy": [
+          "Զիգմունդ Ֆրեյդ",
+          "Վիլհելմ Վունդտ",
+          "Ուիլյամ Ջեյմս",
+          "Ջոն Ուոթսոն"
+        ],
+        "optionsAz": [
+          "Ziqmund Freyd",
+          "Vilhelm Vundt",
+          "William James",
+          "John Watson"
+        ],
+        "questionAz": "1879-cu ildə ilk psixologiya laboratoriyasını kim yaradıb?",
+        "explanationRu": "Вильгельм Вундт основал первую психологическую лабораторию в Лейпцигском университете в 1879 году.",
+        "questionHy": "Ո՞վ հիմնեց առաջին հոգեբանական լաբորատորիան 1879 թվականին:",
+        "explanationHy": "Վիլհելմ Վունդտը հիմնադրել է առաջին հոգեբանական լաբորատորիան Լայպցիգի համալսարանում 1879 թվականին:",
+        "questionRu": "Кто основал первую психологическую лабораторию в 1879 году?",
+        "explanationAz": "Vilhelm Vundt 1879-cu ildə Leypsiq Universitetində ilk psixologiya laboratoriyasını qurdu."
+      },
+      {
+        "id": "q1-2",
+        "question": "Psychology is best defined as the scientific study of:",
+        "questionKa": "ფსიქოლოგია შესწავლის საგანია:",
+        "options": [
+          "The mind only",
+          "Behavior and mental processes",
+          "Emotions",
+          "Brain chemistry"
+        ],
+        "optionsKa": [
+          "გონება",
+          "ქცევა და ფსიქიკური პროცესები",
+          "ემოციები",
+          "ტვინის ქიმია"
+        ],
+        "correctIndex": 1,
+        "explanation": "Psychology is the scientific study of both behavior and mental processes.",
+        "explanationKa": "ფსიქოლოგია არის ქცევისა და ფსიქიკური პროცესების შემსწავლელი მეცნიერება.",
+        "optionsRu": [
+          "Только разум",
+          "Поведение и психические процессы",
+          "Эмоции",
+          "Химия мозга"
+        ],
+        "optionsHy": [
+          "Միայն միտքը",
+          "Վարքագիծ և մտավոր գործընթացներ",
+          "Զգացմունքներ",
+          "Ուղեղի քիմիա"
+        ],
+        "optionsAz": [
+          "Yalnız ağıl",
+          "Davranış və psixi proseslər",
+          "Emosiyalar",
+          "Beyin kimyası"
+        ],
+        "questionRu": "Психологию лучше всего определить как научное исследование:",
+        "explanationRu": "Психология – это научное исследование поведения и психических процессов.",
+        "explanationAz": "Psixologiya həm davranış, həm də psixi proseslərin elmi tədqiqidir.",
+        "questionHy": "Հոգեբանությունը լավագույնս սահմանվում է որպես հետևյալի գիտական ​​ուսումնասիրություն.",
+        "questionAz": "Psixologiya ən yaxşı elmi araşdırma kimi müəyyən edilir:",
+        "explanationHy": "Հոգեբանությունը գիտական ​​ուսումնասիրություն է ինչպես վարքի, այնպես էլ մտավոր գործընթացների մասին:"
+      },
+      {
+        "id": "q1-3",
+        "question": "Which perspective emphasizes observable behavior?",
+        "questionKa": "ფსიქოლოგიის რომელი მიმართულება ფოკუსირდება დაკვირვებად ქცევაზე?",
+        "options": [
+          "Psychoanalytic",
+          "Humanistic",
+          "Behavioral",
+          "Cognitive"
+        ],
+        "optionsKa": [
+          "ფსიქოანალიტიკური",
+          "ჰუმანისტური",
+          "ბიჰევიორისტული",
+          "კოგნიტური"
+        ],
+        "correctIndex": 2,
+        "explanation": "Behaviorism focuses on observable, measurable behaviors.",
+        "explanationKa": "ბიჰევიორიზმი ფოკუსირდება დაკვირვებად, გაზომვად ქცევებზე.",
+        "optionsRu": [
+          "Психоаналитический",
+          "гуманистический",
+          "Поведенческий",
+          "Когнитивный"
+        ],
+        "optionsHy": [
+          "Հոգեվերլուծական",
+          "Մարդասիրական",
+          "Վարքագծային",
+          "Ճանաչողական"
+        ],
+        "optionsAz": [
+          "Psixoanalitik",
+          "Humanist",
+          "Davranış",
+          "Koqnitiv"
+        ],
+        "questionRu": "Какая точка зрения подчеркивает наблюдаемое поведение?",
+        "explanationHy": "Բևորիզմը կենտրոնանում է դիտարկելի, չափելի վարքագծի վրա:",
+        "explanationAz": "Behaviorizm müşahidə edilə bilən, ölçülə bilən davranışlara diqqət yetirir.",
+        "questionAz": "Hansı perspektiv müşahidə edilə bilən davranışı vurğulayır?",
+        "questionHy": "Ո՞ր տեսակետն է ընդգծում դիտարկելի վարքագիծը:",
+        "explanationRu": "Бихевиоризм фокусируется на наблюдаемом и измеримом поведении."
+      },
+      {
+        "id": "q1-4",
+        "question": "The psychoanalytic approach was developed by:",
+        "questionKa": "ფსიქოანალიტიკური მიდგომა შეიმუშავა:",
+        "options": [
+          "Carl Rogers",
+          "Sigmund Freud",
+          "Abraham Maslow",
+          "Ivan Pavlov"
+        ],
+        "optionsKa": [
+          "კარლ როჯერსმა",
+          "ზიგმუნდ ფროიდმა",
+          "აბრაჰამ მასლოუმ",
+          "ივან პავლოვმა"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sigmund Freud developed psychoanalysis.",
+        "explanationKa": "ზიგმუნდ ფროიდმა შეიმუშავა ფსიქოანალიზი.",
+        "optionsRu": [
+          "Карл Роджерс",
+          "Зигмунд Фрейд",
+          "Авраам Маслоу",
+          "Иван Павлов"
+        ],
+        "optionsHy": [
+          "Կարլ Ռոջերս",
+          "Զիգմունդ Ֆրեյդ",
+          "Աբրահամ Մասլոու",
+          "Իվան Պավլով"
+        ],
+        "optionsAz": [
+          "Karl Rocers",
+          "Ziqmund Freyd",
+          "Abraham Maslow",
+          "İvan Pavlov"
+        ],
+        "questionRu": "Психоаналитический подход был разработан:",
+        "questionAz": "Psixoanalitik yanaşma aşağıdakılar tərəfindən hazırlanmışdır:",
+        "questionHy": "Հոգեվերլուծական մոտեցումը մշակվել է.",
+        "explanationAz": "Ziqmund Freyd psixoanalizi inkişaf etdirdi.",
+        "explanationRu": "Зигмунд Фрейд разработал психоанализ.",
+        "explanationHy": "Զիգմունդ Ֆրեյդը զարգացրեց հոգեվերլուծությունը:"
+      },
+      {
+        "id": "q1-5",
+        "question": "Which school used introspection as its primary method?",
+        "questionKa": "რომელი სკოლა იყენებდა ინტროსპექციას, როგორც ძირითად მეთოდს?",
+        "options": [
+          "Functionalism",
+          "Structuralism",
+          "Gestalt",
+          "Behaviorism"
+        ],
+        "optionsKa": [
+          "ფუნქციონალიზმი",
+          "სტრუქტურალიზმი",
+          "გეშტალტი",
+          "ბიჰევიორიზმი"
+        ],
+        "correctIndex": 1,
+        "explanation": "Structuralism used introspection to analyze conscious experience.",
+        "explanationKa": "სტრუქტურალიზმი იყენებდა ინტროსპექციას ცნობიერი გამოცდილების ანალიზისთვის.",
+        "optionsRu": [
+          "Функционализм",
+          "Структурализм",
+          "гештальт",
+          "Бихевиоризм"
+        ],
+        "optionsHy": [
+          "Ֆունկցիոնալիզմ",
+          "Կառուցվածքալիզմ",
+          "Գեշտալտ",
+          "Վարքագծություն"
+        ],
+        "optionsAz": [
+          "Funksionalizm",
+          "Strukturizm",
+          "Geştalt",
+          "Davranışçılıq"
+        ],
+        "explanationRu": "Структурализм использовал самоанализ для анализа сознательного опыта.",
+        "questionRu": "Какая школа использовала самоанализ в качестве основного метода?",
+        "questionHy": "Ո՞ր դպրոցն է օգտագործել ներդաշնակությունը որպես հիմնական մեթոդ:",
+        "explanationHy": "Structuralism-ն օգտագործեց ներդիտումը գիտակցված փորձը վերլուծելու համար:",
+        "explanationAz": "Strukturizm şüurlu təcrübəni təhlil etmək üçün introspeksiyadan istifadə edirdi.",
+        "questionAz": "Hansı məktəb əsas metod kimi introspeksiyadan istifadə edirdi?"
+      },
+      {
+        "id": "q1-6",
+        "question": "The humanistic perspective emphasizes:",
+        "questionKa": "ჰუმანისტური მიმართულება აქცენტს აკეთებს:",
+        "options": [
+          "Unconscious desires",
+          "Free will and self-actualization",
+          "Stimulus-response",
+          "Brain chemistry"
+        ],
+        "optionsKa": [
+          "არაცნობიერ სურვილებზე",
+          "თავისუფალ ნებასა და თვითრეალიზაციაზე",
+          "სტიმულ-რეაქციაზე",
+          "ტვინის ქიმიაზე"
+        ],
+        "correctIndex": 1,
+        "explanation": "Humanistic psychology focuses on personal growth and free will.",
+        "explanationKa": "ჰუმანისტური ფსიქოლოგია ფოკუსირდება პიროვნულ ზრდასა და თავისუფალ ნებაზე.",
+        "optionsRu": [
+          "Бессознательные желания",
+          "Свободная воля и самореализация",
+          "Стимул-реакция",
+          "Химия мозга"
+        ],
+        "optionsHy": [
+          "Անգիտակից ցանկություններ",
+          "Ազատ կամք և ինքնաիրականացում",
+          "Խթան-արձագանք",
+          "Ուղեղի քիմիա"
+        ],
+        "optionsAz": [
+          "Şüursuz arzular",
+          "Sərbəst iradə və özünü həyata keçirmə",
+          "Stimul-cavab",
+          "Beyin kimyası"
+        ],
+        "explanationHy": "Մարդասիրական հոգեբանությունը կենտրոնանում է անձնական աճի և ազատ կամքի վրա:",
+        "questionHy": "Մարդասիրական հեռանկարը շեշտում է.",
+        "explanationRu": "Гуманистическая психология фокусируется на личностном росте и свободе воли.",
+        "questionRu": "Гуманистический подход подчеркивает:",
+        "questionAz": "Humanist perspektiv vurğulayır:",
+        "explanationAz": "Humanist psixologiya şəxsi inkişafa və azad iradəyə diqqət yetirir."
+      },
+      {
+        "id": "q1-7",
+        "question": "William James is associated with:",
+        "questionKa": "უილიამ ჯეიმსი ასოცირდება:",
+        "options": [
+          "Structuralism",
+          "Functionalism",
+          "Behaviorism",
+          "Gestalt"
+        ],
+        "optionsKa": [
+          "სტრუქტურალიზმთან",
+          "ფუნქციონალიზმთან",
+          "ბიჰევიორიზმთან",
+          "გეშტალტთან"
+        ],
+        "correctIndex": 1,
+        "explanation": "William James founded functionalism.",
+        "explanationKa": "უილიამ ჯეიმსმა შემოიღო ფუნქციონალიზმი.",
+        "optionsRu": [
+          "Структурализм",
+          "Функционализм",
+          "Бихевиоризм",
+          "гештальт"
+        ],
+        "optionsHy": [
+          "Կառուցվածքալիզմ",
+          "Ֆունկցիոնալիզմ",
+          "Վարքագծություն",
+          "Գեշտալտ"
+        ],
+        "optionsAz": [
+          "Strukturizm",
+          "Funksionalizm",
+          "Davranışçılıq",
+          "Geştalt"
+        ],
+        "questionHy": "Ուիլյամ Ջեյմսը կապված է.",
+        "explanationHy": "Ուիլյամ Ջեյմսը հիմնեց ֆունկցիոնալիզմը:",
+        "explanationRu": "Уильям Джеймс основал функционализм.",
+        "questionRu": "Уильям Джеймс связан с:",
+        "questionAz": "William James ilə əlaqələndirilir:",
+        "explanationAz": "Uilyam Ceyms funksionalizmin əsasını qoydu."
+      },
+      {
+        "id": "q1-8",
+        "question": "The cognitive perspective focuses on:",
+        "questionKa": "კოგნიტური მიმართულება ფოკუსირდება:",
+        "options": [
+          "Brain structures",
+          "Mental processes like thinking and memory",
+          "Social influences",
+          "Childhood experiences"
+        ],
+        "optionsKa": [
+          "ტვინის სტრუქტურებზე",
+          "ფსიქიკურ პროცესებზე, როგორიცაა აზროვნება და მეხსიერება",
+          "სოციალურ გავლენებზე",
+          "ბავშვობის გამოცდილებებზე"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cognitive psychology studies internal mental processes.",
+        "explanationKa": "კოგნიტური ფსიქოლოგია შეისწავლის ფსიქიკურ პროცესებს.",
+        "optionsRu": [
+          "Мозговые структуры",
+          "Психические процессы, такие как мышление и память",
+          "Социальные влияния",
+          "Детские впечатления"
+        ],
+        "optionsHy": [
+          "Ուղեղի կառուցվածքները",
+          "Հոգեկան գործընթացներ, ինչպիսիք են մտածողությունը և հիշողությունը",
+          "Սոցիալական ազդեցությունները",
+          "Մանկության փորձառություններ"
+        ],
+        "optionsAz": [
+          "Beyin strukturları",
+          "Düşüncə və yaddaş kimi zehni proseslər",
+          "Sosial təsirlər",
+          "Uşaqlıq təcrübələri"
+        ],
+        "questionRu": "Когнитивный подход фокусируется на:",
+        "questionHy": "Ճանաչողական տեսակետը կենտրոնանում է.",
+        "explanationHy": "Կոգնիտիվ հոգեբանությունը ուսումնասիրում է ներքին հոգեկան գործընթացները:",
+        "questionAz": "Koqnitiv perspektiv aşağıdakılara diqqət yetirir:",
+        "explanationAz": "Koqnitiv psixologiya daxili psixi prosesləri öyrənir.",
+        "explanationRu": "Когнитивная психология изучает внутренние психические процессы."
+      },
+      {
+        "id": "q1-9",
+        "question": "The biopsychosocial model includes:",
+        "questionKa": "ბიოფსიქოსოციალური მოდელი მოიცავს:",
+        "options": [
+          "Biology only",
+          "Psychology only",
+          "Social factors only",
+          "Biological, psychological, and social factors"
+        ],
+        "optionsKa": [
+          "მხოლოდ ბიოლოგიას",
+          "მხოლოდ ფსიქოლოგიას",
+          "მხოლოდ სოციალურ ფაქტორებს",
+          "ბიოლოგიურ, ფსიქოლოგიურ და სოციალურ ფაქტორებს"
+        ],
+        "correctIndex": 3,
+        "explanation": "It integrates all three factors.",
+        "explanationKa": "ის აერთიანებს სამივე ფაქტორს.",
+        "optionsRu": [
+          "Только биология",
+          "Только психология",
+          "Только социальные факторы",
+          "Биологические, психологические и социальные факторы"
+        ],
+        "optionsHy": [
+          "Միայն կենսաբանություն",
+          "Միայն հոգեբանություն",
+          "Միայն սոցիալական գործոններ",
+          "Կենսաբանական, հոգեբանական և սոցիալական գործոններ"
+        ],
+        "optionsAz": [
+          "Yalnız biologiya",
+          "Yalnız psixologiya",
+          "Yalnız sosial amillər",
+          "Bioloji, psixoloji və sosial amillər"
+        ],
+        "questionRu": "Биопсихосоциальная модель включает в себя:",
+        "questionHy": "Կենսահոգեբանական մոդելը ներառում է.",
+        "questionAz": "Biopsixososial modelə aşağıdakılar daxildir:",
+        "explanationHy": "Այն միավորում է բոլոր երեք գործոնները:",
+        "explanationRu": "Он объединяет все три фактора.",
+        "explanationAz": "O, hər üç amili birləşdirir."
+      },
+      {
+        "id": "q1-10",
+        "question": "Which is NOT a goal of psychology?",
+        "questionKa": "რომელი არ არის ფსიქოლოგიის მიზანი?",
+        "options": [
+          "Describe behavior",
+          "Explain behavior",
+          "Control the economy",
+          "Predict behavior"
+        ],
+        "optionsKa": [
+          "ქცევის აღწერა",
+          "ქცევის ახსნა",
+          "ეკონომიკის მართვა",
+          "ქცევის პროგნოზირება"
+        ],
+        "correctIndex": 2,
+        "explanation": "The four goals are to describe, explain, predict, and influence behavior.",
+        "explanationKa": "ოთხი მიზანია: აღწერა, ახსნა, პროგნოზირება და ქცევაზე ზემოქმედება.",
+        "optionsRu": [
+          "Опишите поведение",
+          "Объясните поведение",
+          "Контролируйте экономику",
+          "Прогнозирование поведения"
+        ],
+        "optionsHy": [
+          "Նկարագրեք վարքագիծը",
+          "Բացատրեք վարքագիծը",
+          "Վերահսկել տնտեսությունը",
+          "Կանխատեսել վարքագիծը"
+        ],
+        "optionsAz": [
+          "Davranışı təsvir edin",
+          "Davranışı izah edin",
+          "İqtisadiyyata nəzarət edin",
+          "Davranışı proqnozlaşdırmaq"
+        ],
+        "explanationHy": "Չորս նպատակներն են՝ նկարագրել, բացատրել, կանխատեսել և ազդել վարքագծի վրա:",
+        "explanationRu": "Четыре цели — описать, объяснить, предсказать поведение и повлиять на него.",
+        "questionHy": "Ո՞րը հոգեբանության նպատակը ՉԷ:",
+        "questionRu": "Что НЕ является целью психологии?",
+        "explanationAz": "Dörd məqsəd davranışı təsvir etmək, izah etmək, proqnozlaşdırmaq və təsir etməkdir.",
+        "questionAz": "Hansı psixologiyanın məqsədi DEYİL?"
+      }
+    ],
+    "titleHy": "Ի՞նչ է հոգեբանությունը: - Վիկտորինան",
+    "titleRu": "Что такое психология? - Контрольный опрос",
+    "titleAz": "Psixologiya nədir? - Viktorina"
+  },
+  {
+    "id": "ch2-quiz",
+    "chapterId": 2,
+    "title": "Research Methods — Quiz",
+    "titleKa": "კვლევის მეთოდები — ვიქტორინა",
+    "questions": [
+      {
+        "id": "q2-1",
+        "question": "The variable manipulated by the researcher is the:",
+        "questionKa": "მკვლევარის მიერ მანიპულირებადი ცვლადი არის:",
+        "options": [
+          "Dependent variable",
+          "Independent variable",
+          "Control variable",
+          "Confounding variable"
+        ],
+        "optionsKa": [
+          "დამოკიდებული ცვლადი",
+          "დამოუკიდებელი ცვლადი",
+          "საკონტროლო ცვლადი",
+          "შერეული ცვლადი"
+        ],
+        "correctIndex": 1,
+        "explanation": "The independent variable is what the researcher manipulates.",
+        "explanationKa": "დამოუკიდებელი ცვლადი არის ის, რასაც მკვლევარი მანიპულირებს.",
+        "optionsRu": [
+          "Зависимая переменная",
+          "Независимая переменная",
+          "Управляющая переменная",
+          "Смешивающая переменная"
+        ],
+        "optionsHy": [
+          "Կախված փոփոխական",
+          "Անկախ փոփոխական",
+          "Վերահսկիչ փոփոխական",
+          "Շփոթեցնող փոփոխական"
+        ],
+        "optionsAz": [
+          "Asılı dəyişən",
+          "Müstəqil dəyişən",
+          "Nəzarət dəyişəni",
+          "Qarışıq dəyişən"
+        ],
+        "questionHy": "Հետազոտողի կողմից շահարկվող փոփոխականը հետևյալն է.",
+        "explanationHy": "Անկախ փոփոխականն այն է, ինչ հետազոտողը շահարկում է:",
+        "explanationRu": "Независимая переменная – это то, чем манипулирует исследователь.",
+        "questionRu": "Переменной, которой манипулирует исследователь, является:",
+        "explanationAz": "Müstəqil dəyişən tədqiqatçının manipulyasiya etdiyi şeydir.",
+        "questionAz": "Tədqiqatçı tərəfindən manipulyasiya edilən dəyişən aşağıdakılardır:"
+      },
+      {
+        "id": "q2-2",
+        "question": "A positive correlation means:",
+        "questionKa": "დადებითი კორელაცია ნიშნავს:",
+        "options": [
+          "One causes the other",
+          "As one increases the other decreases",
+          "Both increase together",
+          "No relationship"
+        ],
+        "optionsKa": [
+          "ერთი იწვევს მეორეს",
+          "ერთის ზრდისას მეორე მცირდება",
+          "ორივე ერთად იზრდება",
+          "კავშირი არ არის"
+        ],
+        "correctIndex": 2,
+        "explanation": "Both variables move in the same direction.",
+        "explanationKa": "ორივე ცვლადი ერთი მიმართულებით მოძრაობს.",
+        "optionsRu": [
+          "Одно вызывает другое",
+          "По мере увеличения одного другое уменьшается",
+          "Оба увеличиваются вместе",
+          "Нет отношений"
+        ],
+        "optionsHy": [
+          "Մեկն առաջացնում է մյուսը",
+          "Քանի որ մեկը մեծանում է, մյուսը նվազում է",
+          "Երկուսն էլ միասին ավելանում են",
+          "Ոչ մի հարաբերություն"
+        ],
+        "optionsAz": [
+          "Biri digərinə səbəb olur",
+          "Biri artdıqca digəri azalır",
+          "Hər ikisi birlikdə artır",
+          "Əlaqə yoxdur"
+        ],
+        "questionRu": "Положительная корреляция означает:",
+        "explanationRu": "Обе переменные движутся в одном направлении.",
+        "explanationHy": "Երկու փոփոխականներն էլ շարժվում են նույն ուղղությամբ։",
+        "questionHy": "Դրական հարաբերակցությունը նշանակում է.",
+        "explanationAz": "Hər iki dəyişən eyni istiqamətdə hərəkət edir.",
+        "questionAz": "Müsbət korrelyasiya o deməkdir:"
+      },
+      {
+        "id": "q2-3",
+        "question": "The placebo effect demonstrates:",
+        "questionKa": "პლაცებოს ეფექტი აჩვენებს:",
+        "options": [
+          "Power of belief on outcomes",
+          "Experiments fail",
+          "Drugs never work",
+          "Correlation equals causation"
+        ],
+        "optionsKa": [
+          "რწმენის ძალას შედეგებზე",
+          "ექსპერიმენტები ვერ ხერხდება",
+          "წამლები არასოდეს მუშაობს",
+          "კორელაცია ტოლია მიზეზობრიობის"
+        ],
+        "correctIndex": 0,
+        "explanation": "Improvement from belief in treatment.",
+        "explanationKa": "როცა ექსპერიმენტის მონაწილეები ექსპერიმენტული მანიპულაციის ჩარევის გარაშე იცვლიან ქცევას.",
+        "optionsRu": [
+          "Сила веры в результаты",
+          "Эксперименты терпят неудачу",
+          "Наркотики никогда не работают",
+          "Корреляция равна причинно-следственной связи"
+        ],
+        "optionsHy": [
+          "Արդյունքների վրա հավատքի ուժը",
+          "Փորձերը ձախողվում են",
+          "Թմրանյութերը երբեք չեն գործում",
+          "Հարաբերակցությունը հավասար է պատճառականության"
+        ],
+        "optionsAz": [
+          "Nəticələrə inam gücü",
+          "Təcrübələr uğursuz olur",
+          "Dərmanlar heç vaxt işləmir",
+          "Korrelyasiya səbəbiyyətə bərabərdir"
+        ],
+        "explanationRu": "Улучшение от веры в лечение.",
+        "questionRu": "Эффект плацебо демонстрирует:",
+        "questionHy": "Պլացեբոյի էֆեկտը ցույց է տալիս.",
+        "explanationHy": "Բուժման նկատմամբ հավատքի բարելավում:",
+        "questionAz": "Plasebo effekti göstərir:",
+        "explanationAz": "Müalicəyə inamdan yaxşılaşma."
+      },
+      {
+        "id": "q2-4",
+        "question": "Which method establishes cause and effect?",
+        "questionKa": "რომელი მეთოდი ადგენს მიზეზ-შედეგობრივ კავშირს?",
+        "options": [
+          "Survey",
+          "Case study",
+          "Experiment",
+          "Observation"
+        ],
+        "optionsKa": [
+          "გამოკითხვა",
+          "შემთხვევის შესწავლა",
+          "ექსპერიმენტი",
+          "დაკვირვება"
+        ],
+        "correctIndex": 2,
+        "explanation": "Only experiments can establish cause-and-effect.",
+        "explanationKa": "მხოლოდ ექსპერიმენტს შეუძლია მიზეზ-შედეგობრიობის დადგენა.",
+        "optionsRu": [
+          "Опрос",
+          "Тематическое исследование",
+          "Эксперимент",
+          "Наблюдение"
+        ],
+        "optionsHy": [
+          "Հարցում",
+          "Գործի ուսումնասիրություն",
+          "Փորձարկում",
+          "Դիտարկում"
+        ],
+        "optionsAz": [
+          "Sorğu",
+          "Case study",
+          "Təcrübə",
+          "Müşahidə"
+        ],
+        "explanationHy": "Միայն փորձերը կարող են հաստատել պատճառ և հետևանք:",
+        "explanationRu": "Только эксперименты могут установить причину и следствие.",
+        "questionRu": "Какой метод устанавливает причину и следствие?",
+        "questionHy": "Ո՞ր մեթոդն է սահմանում պատճառն ու հետևանքը:",
+        "questionAz": "Hansı üsul səbəb və nəticəni müəyyən edir?",
+        "explanationAz": "Yalnız təcrübələr səbəb-nəticəni müəyyən edə bilər."
+      },
+      {
+        "id": "q2-5",
+        "question": "Random assignment helps to:",
+        "questionKa": "შემთხვევითი განაწილება ეხმარება:",
+        "options": [
+          "Increase sample",
+          "Equalize groups",
+          "Make results public",
+          "Speed research"
+        ],
+        "optionsKa": [
+          "ნიმუშის გაზრდას",
+          "ჯგუფების გათანაბრებას",
+          "შედეგების გასაჯაროებას",
+          "კვლევის დაჩქარებას"
+        ],
+        "correctIndex": 1,
+        "explanation": "Random assignment ensures groups are equivalent.",
+        "explanationKa": "შემთხვევითი განაწილება უზრუნველყოფს ჯგუფების ეკვივალენტურობას.",
+        "optionsRu": [
+          "Увеличение выборки",
+          "Уравнять группы",
+          "Сделайте результаты общедоступными",
+          "Исследование скорости"
+        ],
+        "optionsHy": [
+          "Մեծացնել նմուշը",
+          "Հավասարեցնել խմբերը",
+          "Արդյունքները հրապարակայնացրեք",
+          "Արագության հետազոտություն"
+        ],
+        "optionsAz": [
+          "Nümunəni artırın",
+          "Qrupları bərabərləşdirin",
+          "Nəticələri ictimailəşdirin",
+          "Sürət araşdırması"
+        ],
+        "questionHy": "Պատահական հանձնարարությունը օգնում է.",
+        "explanationHy": "Պատահական հանձնարարությունը ապահովում է խմբերի համարժեքությունը:",
+        "questionRu": "Случайное назначение помогает:",
+        "explanationRu": "Случайное назначение гарантирует эквивалентность групп.",
+        "explanationAz": "Təsadüfi təyinat qrupların ekvivalent olmasını təmin edir.",
+        "questionAz": "Təsadüfi təyinat aşağıdakılara kömək edir:"
+      },
+      {
+        "id": "q2-6",
+        "question": "A double-blind study means:",
+        "questionKa": "ორმაგი ბრმა კვლევა ნიშნავს:",
+        "options": [
+          "No one knows hypothesis",
+          "Neither side knows assignments",
+          "Two experiments run",
+          "Both eyes covered"
+        ],
+        "optionsKa": [
+          "არავინ იცის ზღვის გოჭების მიგრაციის სალდო",
+          "არც ერთი მხარემ არ იცის რომელ პირობაში მოხვდნენ",
+          "ორი ექსპერიმენტი მიმდინარეობს",
+          "ორივე თვალი აკრულია"
+        ],
+        "correctIndex": 1,
+        "explanation": "Neither participants nor researchers know group assignments.",
+        "explanationKa": "საშუალებას გვაძლევს თავიდან ავიცილოთ ექსპერიმენტატორის მოლოდინის ეფექტი იმით, რომ არც ასისტენტმა და არც მონაწილეებმა არ იციან, რომელ პირობაში მოხვდნენ ისინი.",
+        "optionsRu": [
+          "Никто не знает гипотезы",
+          "Ни одна из сторон не знает заданий",
+          "Проводятся два эксперимента",
+          "Оба глаза закрыты"
+        ],
+        "optionsHy": [
+          "Ոչ ոք չգիտի վարկած",
+          "Կողմերից ոչ մեկը չգիտի հանձնարարությունները",
+          "Երկու փորձարկում է կատարվում",
+          "Երկու աչքերն էլ ծածկված էին"
+        ],
+        "optionsAz": [
+          "Heç kim hipotezi bilmir",
+          "Heç bir tərəf tapşırıqları bilmir",
+          "İki təcrübə aparılır",
+          "Hər iki göz örtülü"
+        ],
+        "explanationHy": "Ոչ մասնակիցները, ոչ հետազոտողները չգիտեն խմբային առաջադրանքները:",
+        "questionRu": "Двойное слепое исследование означает:",
+        "questionAz": "İkiqat kor tədqiqat o deməkdir:",
+        "questionHy": "Կրկնակի կույր ուսումնասիրությունը նշանակում է.",
+        "explanationRu": "Ни участники, ни исследователи не знают групповых заданий.",
+        "explanationAz": "Nə iştirakçılar, nə də tədqiqatçılar qrup tapşırıqlarını bilmirlər."
+      },
+      {
+        "id": "q2-7",
+        "question": "Correlation does not equal causation means:",
+        "questionKa": "კორელაცია არ უდრის მიზეზობრიობაა ნიშნავს:",
+        "options": [
+          "Correlations are useless",
+          "Being related does not mean causation",
+          "All research is flawed",
+          "Experiments unnecessary"
+        ],
+        "optionsKa": [
+          "კორელაციები უსარგებლოა",
+          "კავშირი არ ნიშნავს მიზეზობრიობას",
+          "ყველა კვლევა ხარვეზიანია",
+          "ექსპერიმენტები არ არის საჭირო"
+        ],
+        "correctIndex": 1,
+        "explanation": "Correlation does not prove direct causation.",
+        "explanationKa": "კორელაცია არ ამტკიცებს პირდაპირ მიზეზობრიობას.",
+        "optionsRu": [
+          "Корреляции бесполезны",
+          "Связь не означает причинно-следственную связь",
+          "Все исследования ошибочны",
+          "Эксперименты не нужны"
+        ],
+        "optionsHy": [
+          "Հարաբերակցություններն անօգուտ են",
+          "Հարազատ լինելը չի ​​նշանակում պատճառահետևանքային կապ",
+          "Բոլոր հետազոտությունները թերի են",
+          "Փորձերն ավելորդ են"
+        ],
+        "optionsAz": [
+          "Korrelyasiya faydasızdır",
+          "Əlaqəli olmaq səbəb əlaqəsi demək deyil",
+          "Bütün araşdırmalar səhvdir",
+          "Təcrübələr lazımsızdır"
+        ],
+        "questionRu": "Корреляция не равна причинно-следственной связи:",
+        "explanationRu": "Корреляция не доказывает прямую причинно-следственную связь.",
+        "questionAz": "Korrelyasiya səbəbiyyətə bərabər deyil deməkdir:",
+        "explanationAz": "Korrelyasiya birbaşa səbəb əlaqəsini sübut etmir.",
+        "explanationHy": "Հարաբերակցությունը չի ապացուցում ուղղակի պատճառականությունը:",
+        "questionHy": "Հարաբերակցությունը չի հավասարեցնում պատճառահետևանքային կապը նշանակում է."
+      },
+      {
+        "id": "q2-8",
+        "question": "Informed consent means participants:",
+        "questionKa": "ინფორმირებული თანხმობა ნიშნავს, რომ მონაწილეები:",
+        "options": [
+          "Are paid well",
+          "Understand and agree voluntarily",
+          "Must finish the study",
+          "Are students"
+        ],
+        "optionsKa": [
+          "კარგად არიან ანაზღაურებული",
+          "ესმით და ნებაყოფლობით თანხმდებიან",
+          "კვლევა ბოლომდე უნდა დაასრულონ",
+          "სტუდენტები არიან"
+        ],
+        "correctIndex": 1,
+        "explanation": "Participants must understand and agree voluntarily.",
+        "explanationKa": "მონაწილეებს უნდა ესმოდეთ და ნებაყოფლობით დათანხმდნენ.",
+        "optionsRu": [
+          "Хорошо платят",
+          "Понять и согласиться добровольно",
+          "Должен закончить исследование",
+          "Студенты"
+        ],
+        "optionsHy": [
+          "Լավ են վարձատրվում",
+          "Հասկացեք և համաձայնվեք կամավոր",
+          "Պետք է ավարտել ուսումնասիրությունը",
+          "Ուսանողներ են"
+        ],
+        "optionsAz": [
+          "Yaxşı maaş alırlar",
+          "Anlayın və könüllü olaraq razılaşın",
+          "Təhsili bitirməlidir",
+          "Tələbədirlər"
+        ],
+        "questionRu": "Информированное согласие означает, что участники:",
+        "explanationHy": "Մասնակիցները պետք է հասկանան և կամովին համաձայնվեն:",
+        "questionAz": "Məlumatlı razılıq iştirakçılar deməkdir:",
+        "questionHy": "Տեղեկացված համաձայնությունը նշանակում է մասնակիցներ.",
+        "explanationRu": "Участники должны понять и согласиться добровольно.",
+        "explanationAz": "İştirakçılar könüllü olaraq başa düşməli və razılaşmalıdırlar."
+      },
+      {
+        "id": "q2-9",
+        "question": "Which provides most in-depth info about one individual?",
+        "questionKa": "რომელი იძლევა ყველაზე სიღრმისეულ ინფორმაციას ერთი ინდივიდის შესახებ?",
+        "options": [
+          "Survey",
+          "Experiment",
+          "Case study",
+          "Correlation study"
+        ],
+        "optionsKa": [
+          "გამოკითხვა",
+          "ექსპერიმენტი",
+          "შემთხვევის შესწავლა",
+          "კორელაციური კვლევა"
+        ],
+        "correctIndex": 2,
+        "explanation": "Case studies are deeply detailed.",
+        "explanationKa": "შემთხვევის შესწავლა ყველაზე დეტალურია.",
+        "optionsRu": [
+          "Опрос",
+          "Эксперимент",
+          "Тематическое исследование",
+          "Корреляционное исследование"
+        ],
+        "optionsHy": [
+          "Հարցում",
+          "Փորձարկում",
+          "Գործի ուսումնասիրություն",
+          "Հարաբերակցության ուսումնասիրություն"
+        ],
+        "optionsAz": [
+          "Sorğu",
+          "Təcrübə",
+          "Case study",
+          "Korrelyasiya tədqiqatı"
+        ],
+        "explanationAz": "Keys tədqiqatları dərin təfərrüatlıdır.",
+        "explanationRu": "Тематические исследования глубоко детализированы.",
+        "questionAz": "Hansı bir şəxs haqqında ən ətraflı məlumat verir?",
+        "questionRu": "Какой из них предоставляет наиболее подробную информацию об одном человеке?",
+        "questionHy": "Ո՞րն է տալիս առավել խորը տեղեկատվություն մեկ անձի մասին:",
+        "explanationHy": "Դեպքի ուսումնասիրությունները խորապես մանրամասն են:"
+      },
+      {
+        "id": "q2-10",
+        "question": "The mean is:",
+        "questionKa": "საშუალო არითმეტიკული არის:",
+        "options": [
+          "Most frequent score",
+          "Middle score",
+          "Arithmetic average",
+          "Range of scores"
+        ],
+        "optionsKa": [
+          "ყველაზე ხშირი ქულა",
+          "შუალედური ქულა",
+          "ყველას ჯამი გაყოფილი რაოდენობააზე",
+          "ქულების დიაპაზონი"
+        ],
+        "correctIndex": 2,
+        "explanation": "The mean is the arithmetic average.",
+        "explanationKa": "საშუალო არითმეტიკული არის ყველას ჯამი გაყოფილი რაოდენობააზე.",
+        "optionsRu": [
+          "Самый частый результат",
+          "Средний балл",
+          "Среднее арифметическое",
+          "Диапазон оценок"
+        ],
+        "optionsHy": [
+          "Առավել հաճախակի միավոր",
+          "Միջին միավոր",
+          "Միջին թվաբանական",
+          "Միավորների միջակայք"
+        ],
+        "optionsAz": [
+          "Ən tez-tez xal",
+          "Orta hesab",
+          "Arifmetik orta",
+          "Xalların diapazonu"
+        ],
+        "questionAz": "Ortası budur:",
+        "explanationAz": "Orta arifmetik ortadır.",
+        "questionRu": "Среднее значение:",
+        "questionHy": "Միջինը հետևյալն է.",
+        "explanationRu": "Среднее значение – это среднее арифметическое.",
+        "explanationHy": "Միջինը թվաբանական միջինն է։"
+      }
+    ],
+    "titleRu": "Методы исследования — Викторина",
+    "titleHy": "Հետազոտության մեթոդներ — Վիկտորինա",
+    "titleAz": "Tədqiqat Metodları — Viktorina"
+  },
+  {
+    "id": "ch3-quiz",
+    "chapterId": 3,
+    "title": "Biological Bases — Quiz",
+    "titleKa": "ბიოლოგიური საფუძვლები — ვიქტორინა",
+    "questions": [
+      {
+        "id": "q3-1",
+        "question": "The gap between two neurons is the:",
+        "questionKa": "ორ ნეირონს შორის უფსკრული არის:",
+        "options": [
+          "Axon terminal",
+          "Synapse",
+          "Dendrite",
+          "Myelin sheath"
+        ],
+        "optionsKa": [
+          "აქსონის ტერმინალი",
+          "სინაფსი",
+          "დენდრიტი",
+          "მიელინის გარსი"
+        ],
+        "correctIndex": 1,
+        "explanation": "The synapse is the gap between neurons.",
+        "explanationKa": "სინაფსი არის უფსკრული ნეირონებს შორის.",
+        "optionsRu": [
+          "Аксон терминал",
+          "Синапс",
+          "Дендрит",
+          "Миелиновая оболочка"
+        ],
+        "optionsHy": [
+          "Axon տերմինալ",
+          "Սինապս",
+          "Դենդրիտ",
+          "Միելինային պատյան"
+        ],
+        "optionsAz": [
+          "Axon terminalı",
+          "Sinaps",
+          "dendrit",
+          "Miyelin qabığı"
+        ],
+        "explanationHy": "Սինապսը նեյրոնների միջև եղած բացն է:",
+        "questionHy": "Երկու նեյրոնների միջև եղած բացը հետևյալն է.",
+        "questionRu": "Разрыв между двумя нейронами – это:",
+        "explanationRu": "Синапс – это щель между нейронами.",
+        "questionAz": "İki neyron arasındakı boşluq:",
+        "explanationAz": "Sinaps neyronlar arasındakı boşluqdur."
+      },
+      {
+        "id": "q3-2",
+        "question": "Which neurotransmitter is linked to pleasure and reward?",
+        "questionKa": "რომელი ნეიროტრანსმიტერი არის დაკავშირებული სიამოვნებასთან და ჯილდოსთან?",
+        "options": [
+          "Serotonin",
+          "GABA",
+          "Dopamine",
+          "Acetylcholine"
+        ],
+        "optionsKa": [
+          "სეროტონინი",
+          "GABA",
+          "დოფამინი",
+          "აცეტილქოლინი"
+        ],
+        "correctIndex": 2,
+        "explanation": "Dopamine plays a key role in reward.",
+        "explanationKa": "დოფამინი მნიშვნელოვან როლს თამაშობს ჯილდოს სისტემაში.",
+        "optionsRu": [
+          "Серотонин",
+          "ГАБА",
+          "Дофамин",
+          "Ацетилхолин"
+        ],
+        "optionsHy": [
+          "Սերոտոնին",
+          "ԳԱԲԱ",
+          "Դոպամին",
+          "Ացետիլխոլին"
+        ],
+        "optionsAz": [
+          "Serotonin",
+          "GABA",
+          "Dopamin",
+          "Asetilkolin"
+        ],
+        "questionHy": "Ո՞ր նյարդահաղորդիչն է կապված հաճույքի և պարգևի հետ:",
+        "questionRu": "Какой нейромедиатор связан с удовольствием и вознаграждением?",
+        "questionAz": "Hansı nörotransmitter həzz və mükafatla əlaqələndirilir?",
+        "explanationHy": "Դոպամինը առանցքային դեր է խաղում պարգևատրման գործում:",
+        "explanationRu": "Дофамин играет ключевую роль в вознаграждении.",
+        "explanationAz": "Dopamin mükafatlandırmada əsas rol oynayır."
+      },
+      {
+        "id": "q3-3",
+        "question": "The cerebral cortex has how many lobes?",
+        "questionKa": "თავის ტვინის ქერქს რამდენი წილი აქვს?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "optionsKa": [
+          "ორი",
+          "სამი",
+          "ოთხი",
+          "ხუთი"
+        ],
+        "correctIndex": 2,
+        "explanation": "Four lobes: frontal, parietal, temporal, occipital.",
+        "explanationKa": "ოთხი წილი: შუბლის, თხემის, საფეთქლის, კეფის.",
+        "optionsRu": [
+          "Два",
+          "Три",
+          "Четыре",
+          "Пять"
+        ],
+        "optionsHy": [
+          "Երկու",
+          "Երեք",
+          "Չորս",
+          "Հինգ"
+        ],
+        "optionsAz": [
+          "iki",
+          "üç",
+          "dörd",
+          "Beş"
+        ],
+        "explanationHy": "Չորս բլթեր՝ ճակատային, պարիետալ, ժամանակավոր, օքսիպիտալ:",
+        "questionHy": "Քանի՞ բլթակ ունի ուղեղի կեղևը:",
+        "explanationRu": "Четыре доли: лобная, теменная, височная, затылочная.",
+        "questionRu": "Сколько долей имеет кора головного мозга?",
+        "questionAz": "Baş beyin qabığının neçə lobu var?",
+        "explanationAz": "Dörd lob: frontal, parietal, temporal, oksipital."
+      },
+      {
+        "id": "q3-4",
+        "question": "Broca's area controls:",
+        "questionKa": "ბროკას არე აკონტროლებს:",
+        "options": [
+          "Vision",
+          "Speech production",
+          "Hearing",
+          "Movement"
+        ],
+        "optionsKa": [
+          "მხედველობას",
+          "მეტყველების წარმოებას",
+          "სმენას",
+          "მოძრაობას"
+        ],
+        "correctIndex": 1,
+        "explanation": "Broca's area controls speech production.",
+        "explanationKa": "ბროკას არე აკონტროლებს მეტყველების წარმოებას.",
+        "optionsRu": [
+          "Зрение",
+          "Речевое производство",
+          "Слух",
+          "Движение"
+        ],
+        "optionsHy": [
+          "Տեսիլք",
+          "Խոսքի արտադրություն",
+          "Լսողություն",
+          "Շարժում"
+        ],
+        "optionsAz": [
+          "Görmə",
+          "Nitq istehsalı",
+          "Eşitmə",
+          "Hərəkət"
+        ],
+        "questionRu": "Зона контроля Брока:",
+        "explanationAz": "Broca bölgəsi nitq istehsalına nəzarət edir.",
+        "questionAz": "Broca sahəsinə nəzarət edir:",
+        "explanationRu": "Зона Брока контролирует производство речи.",
+        "explanationHy": "Broca-ի տարածքը վերահսկում է խոսքի արտադրությունը:",
+        "questionHy": "Broca-ի տարածքը վերահսկում է."
+      },
+      {
+        "id": "q3-5",
+        "question": "Fight-or-flight is activated by:",
+        "questionKa": "ბრძოლა-ან-გაქცევა აქტივირდება:",
+        "options": [
+          "Parasympathetic NS",
+          "Sympathetic NS",
+          "Somatic NS",
+          "Central NS"
+        ],
+        "optionsKa": [
+          "პარასიმპათიკური ნერვული სისტემით",
+          "სიმპათიკური ნერვული სისტემით",
+          "სომატური ნერვული სისტემით",
+          "ცენტრალური ნერვული სისტემით"
+        ],
+        "correctIndex": 1,
+        "explanation": "The sympathetic nervous system activates fight-or-flight.",
+        "explanationKa": "სიმპათიკური ნერვული სისტემა აქტივირებს ბრძოლა-ან-გაქცევის რეაქციას.",
+        "optionsRu": [
+          "Парасимпатическая НС",
+          "Симпатический НС",
+          "Соматический НС",
+          "Центральный НС"
+        ],
+        "optionsHy": [
+          "Պարասիմպաթիկ ՆՍ",
+          "Սիմպաթիկ Ն.Ս",
+          "Սոմատիկ ՆՍ",
+          "Կենտրոնական ԱԱ"
+        ],
+        "optionsAz": [
+          "Parasempatik NS",
+          "Simpatik NS",
+          "Somatik NS",
+          "Mərkəzi NS"
+        ],
+        "questionAz": "Mübarizə və ya uçuş aşağıdakılar tərəfindən aktivləşdirilir:",
+        "explanationRu": "Симпатическая нервная система активирует принцип «бей или беги».",
+        "questionRu": "Режим «бей или беги» активируется:",
+        "questionHy": "Fight-or-flight-ը ակտիվանում է հետևյալով.",
+        "explanationHy": "Սիմպաթիկ նյարդային համակարգը ակտիվացնում է պայքարը կամ փախուստը:",
+        "explanationAz": "Simpatik sinir sistemi döyüş və ya uçuşu aktivləşdirir."
+      },
+      {
+        "id": "q3-6",
+        "question": "Myelin sheath serves to:",
+        "questionKa": "მიელინის გარსის ფუნქციაა:",
+        "options": [
+          "Generate neurotransmitters",
+          "Speed up transmission",
+          "Store memories",
+          "Connect hemispheres"
+        ],
+        "optionsKa": [
+          "ნეიროტრანსმიტერების წარმოება",
+          "გადაცემის დაჩქარება",
+          "მოგონებების შენახვა",
+          "ნახევარსფეროების დაკავშირება"
+        ],
+        "correctIndex": 1,
+        "explanation": "Myelin insulates axons for faster signals.",
+        "explanationKa": "მიელინი იზოლირებს აქსონებს სიგნალების უფრო სწრაფი გადაცემისთვის.",
+        "optionsRu": [
+          "Генерировать нейротрансмиттеры",
+          "Ускорить передачу",
+          "Храните воспоминания",
+          "Соедините полушария"
+        ],
+        "optionsHy": [
+          "Ստեղծեք նյարդային հաղորդիչներ",
+          "Արագացնել փոխանցումը",
+          "Պահպանեք հիշողությունները",
+          "Միացրեք կիսագնդերը"
+        ],
+        "optionsAz": [
+          "Nörotransmitterlər yaradın",
+          "Transmissiyanı sürətləndirin",
+          "Xatirələri saxla",
+          "Yarımkürələri birləşdirin"
+        ],
+        "questionAz": "Miyelin qabığı aşağıdakılara xidmət edir:",
+        "questionRu": "Миелиновая оболочка служит:",
+        "explanationAz": "Miyelin daha sürətli siqnallar üçün aksonları izolyasiya edir.",
+        "explanationHy": "Միելինը մեկուսացնում է աքսոնները ավելի արագ ազդանշանների համար:",
+        "explanationRu": "Миелин изолирует аксоны для более быстрых сигналов.",
+        "questionHy": "Միելինային թաղանթը ծառայում է."
+      },
+      {
+        "id": "q3-7",
+        "question": "Hippocampus is associated with:",
+        "questionKa": "ჰიპოკამპი ასოცირდება:",
+        "options": [
+          "Emotion regulation",
+          "Memory formation",
+          "Visual processing",
+          "Motor control"
+        ],
+        "optionsKa": [
+          "ემოციების რეგულაციასთან",
+          "მეხსიერების ფორმირებასთან",
+          "ვიზუალურ დამუშავებასთან",
+          "მოტორულ კონტროლთან"
+        ],
+        "correctIndex": 1,
+        "explanation": "The hippocampus is essential for forming memories.",
+        "explanationKa": "ჰიპოკამპი აუცილებელია მოგონებების ფორმირებისთვის.",
+        "optionsRu": [
+          "Регулирование эмоций",
+          "Формирование памяти",
+          "Визуальная обработка",
+          "Управление двигателем"
+        ],
+        "optionsHy": [
+          "Զգացմունքների կարգավորում",
+          "Հիշողության ձևավորում",
+          "Տեսողական մշակում",
+          "Շարժիչի կառավարում"
+        ],
+        "optionsAz": [
+          "Emosiyaların tənzimlənməsi",
+          "Yaddaşın formalaşması",
+          "Vizual emal",
+          "Motor nəzarəti"
+        ],
+        "questionRu": "Гиппокамп связан с:",
+        "questionAz": "Hipokampus aşağıdakılarla əlaqələndirilir:",
+        "questionHy": "Հիպոկամպուսը կապված է.",
+        "explanationRu": "Гиппокамп необходим для формирования воспоминаний.",
+        "explanationHy": "Հիպոկամպը կարևոր է հիշողությունների ձևավորման համար:",
+        "explanationAz": "Hipokampus yaddaşların formalaşması üçün vacibdir."
+      },
+      {
+        "id": "q3-8",
+        "question": "Which connects the two hemispheres?",
+        "questionKa": "რომელი აკავშირებს ორ ნახევარსფეროს?",
+        "options": [
+          "Cerebellum",
+          "Corpus callosum",
+          "Thalamus",
+          "Hypothalamus"
+        ],
+        "optionsKa": [
+          "ნათხემი",
+          "თხელი სხეული",
+          "თალამუსი",
+          "ჰიპოთალამუსი"
+        ],
+        "correctIndex": 1,
+        "explanation": "The corpus callosum connects the hemispheres.",
+        "explanationKa": "თხელი სხეული აკავშირებს ნახევარსფეროებს.",
+        "optionsRu": [
+          "Мозжечок",
+          "Мозолистое тело",
+          "Таламус",
+          "Гипоталамус"
+        ],
+        "optionsHy": [
+          "Ուղեղիկ",
+          "Corpus callosum",
+          "Թալամուս",
+          "Հիպոթալամուս"
+        ],
+        "optionsAz": [
+          "Serebellum",
+          "Korpus kallosum",
+          "Talamus",
+          "Hipotalamus"
+        ],
+        "questionHy": "Ո՞րն է միացնում երկու կիսագնդերը:",
+        "explanationHy": "The corpus callosum կապում է կիսագնդերը:",
+        "questionRu": "Что соединяет два полушария?",
+        "explanationRu": "Мозолистое тело соединяет полушария.",
+        "explanationAz": "Korpus kallosum yarımkürələri birləşdirir.",
+        "questionAz": "Hansı iki yarımkürəni birləşdirir?"
+      },
+      {
+        "id": "q3-9",
+        "question": "Endorphins are chemicals that:",
+        "questionKa": "ენდორფინები არის ქიმიური ნივთიერებები, რომლებიც:",
+        "options": [
+          "Increase pain",
+          "Reduce pain and produce pleasure",
+          "Cause depression",
+          "Slow neurons"
+        ],
+        "optionsKa": [
+          "ზრდიან ტკივილს",
+          "ამცირებენ ტკივილს და იწვევენ სიამოვნებას",
+          "იწვევენ დეპრესიას",
+          "ანელებენ ნეირონებს"
+        ],
+        "correctIndex": 1,
+        "explanation": "Endorphins are natural painkillers.",
+        "explanationKa": "ენდორფინები ბუნებრივი ტკივილგამაყუჩებლებია.",
+        "optionsRu": [
+          "Увеличение боли",
+          "Уменьшите боль и доставьте удовольствие",
+          "Вызвать депрессию",
+          "Медленные нейроны"
+        ],
+        "optionsHy": [
+          "Բարձրացնել ցավը",
+          "Նվազեցնել ցավը և հաճույք պատճառել",
+          "Առաջացնել դեպրեսիա",
+          "Դանդաղ նեյրոններ"
+        ],
+        "optionsAz": [
+          "Ağrını artırın",
+          "Ağrıları azaldın və həzz alın",
+          "Depressiyaya səbəb olmaq",
+          "Yavaş neyronlar"
+        ],
+        "questionRu": "Эндорфины – это химические вещества, которые:",
+        "explanationRu": "Эндорфины — естественные обезболивающие.",
+        "explanationHy": "Էնդորֆինները բնական ցավազրկողներ են:",
+        "questionAz": "Endorfinlər kimyəvi maddələrdir:",
+        "explanationAz": "Endorfinlər təbii ağrıkəsicilərdir.",
+        "questionHy": "Էնդորֆինները քիմիական նյութեր են, որոնք."
+      },
+      {
+        "id": "q3-10",
+        "question": "Neuroplasticity is the brain's ability to:",
+        "questionKa": "ნეიროპლასტიკურობა არის ტვინის უნარი:",
+        "options": [
+          "Remain unchanged",
+          "Form new connections",
+          "Only work in childhood",
+          "Produce hormones"
+        ],
+        "optionsKa": [
+          "უცვლელი დარჩეს",
+          "ახალი კავშირების ჩამოყალიბება",
+          "მხოლოდ ბავშვობაში მუშაობა",
+          "ჰორმონების წარმოება"
+        ],
+        "correctIndex": 1,
+        "explanation": "The brain can form new neural connections throughout life.",
+        "explanationKa": "ტვინს შეუძლია ახალი ნეირონული კავშირების ჩამოყალიბება მთელი ცხოვრების მანძილზე.",
+        "optionsRu": [
+          "Остаться неизменным",
+          "Формируйте новые связи",
+          "Работа только в детстве",
+          "Вырабатывают гормоны"
+        ],
+        "optionsHy": [
+          "Մնացեք անփոփոխ",
+          "Նոր կապեր ձևավորեք",
+          "Աշխատեք միայն մանկության մեջ",
+          "Արտադրել հորմոններ"
+        ],
+        "optionsAz": [
+          "Dəyişmədən qalın",
+          "Yeni əlaqələr yaradın",
+          "Yalnız uşaqlıqda işləyin",
+          "Hormonlar istehsal edin"
+        ],
+        "questionHy": "Նեյրոպլաստիկությունը ուղեղի կարողությունն է.",
+        "explanationHy": "Ուղեղը կարող է նոր նյարդային կապեր ձևավորել ողջ կյանքի ընթացքում:",
+        "explanationRu": "Мозг может формировать новые нейронные связи на протяжении всей жизни.",
+        "questionRu": "Нейропластичность – это способность мозга:",
+        "questionAz": "Neyroplastiklik beynin aşağıdakı qabiliyyətidir:",
+        "explanationAz": "Beyin həyat boyu yeni sinir əlaqələri yarada bilər."
+      }
+    ],
+    "titleHy": "Կենսաբանական հիմքեր — Վիկտորինա",
+    "titleRu": "Биологические основы — Викторина",
+    "titleAz": "Bioloji əsaslar - Viktorina"
+  },
+  {
+    "id": "ch4-quiz",
+    "chapterId": 4,
+    "title": "Sensation and Perception — Quiz",
+    "titleKa": "შეგრძნება და აღქმა — ვიქტორინა",
+    "questions": [
+      {
+        "id": "q4-1",
+        "question": "Minimum stimulation detected 50% of the time:",
+        "questionKa": "მინიმალური სტიმულაცია, რომელიც აღმოჩენილია დროის 50%-ში:",
+        "options": [
+          "Difference threshold",
+          "Absolute threshold",
+          "Signal detection",
+          "Weber's law"
+        ],
+        "optionsKa": [
+          "განსხვავების ზღვარი",
+          "აბსოლუტური ზღვარი",
+          "სიგნალის აღმოჩენა",
+          "ვებერის კანონი"
+        ],
+        "correctIndex": 1,
+        "explanation": "Absolute threshold: minimum detected 50% of the time.",
+        "explanationKa": "აბსოლუტური ზღვარი: მინიმალური სტიმულაცია, აღმოჩენილი დროის 50%-ში.",
+        "optionsRu": [
+          "Порог разницы",
+          "Абсолютный порог",
+          "Обнаружение сигнала",
+          "закон Вебера"
+        ],
+        "optionsHy": [
+          "Տարբերության շեմ",
+          "Բացարձակ շեմ",
+          "Ազդանշանի հայտնաբերում",
+          "Վեբերի օրենքը"
+        ],
+        "optionsAz": [
+          "Fərq həddi",
+          "Mütləq həddi",
+          "Siqnal aşkarlanması",
+          "Veber qanunu"
+        ],
+        "questionHy": "Նվազագույն խթանումը հայտնաբերված ժամանակի 50% -ում.",
+        "questionRu": "Минимальная стимуляция обнаруживается в 50% случаев:",
+        "explanationRu": "Абсолютный порог: минимум обнаруживается в 50% случаев.",
+        "explanationHy": "Բացարձակ շեմ. նվազագույնը հայտնաբերված է ժամանակի 50%-ում:",
+        "questionAz": "Minimum stimullaşdırma zamanın 50% -də aşkar edilir:",
+        "explanationAz": "Mütləq həddi: minimum zamanın 50% aşkar edilir."
+      },
+      {
+        "id": "q4-2",
+        "question": "Which Gestalt principle groups nearby objects?",
+        "questionKa": "გეშტალტის რომელი პრინციპი აჯგუფებს ახლომდებარე ობიექტებს?",
+        "options": [
+          "Similarity",
+          "Proximity",
+          "Closure",
+          "Continuity"
+        ],
+        "optionsKa": [
+          "მსგავსება",
+          "სიახლოვე",
+          "დახურულობა",
+          "უწყვეტობა"
+        ],
+        "correctIndex": 1,
+        "explanation": "Proximity: nearby objects are grouped.",
+        "explanationKa": "სიახლოვე: ახლომდებარე ობიექტები ჯგუფდება.",
+        "optionsRu": [
+          "Сходство",
+          "Близость",
+          "Закрытие",
+          "Непрерывность"
+        ],
+        "optionsHy": [
+          "Նմանություն",
+          "Հարևանություն",
+          "Փակում",
+          "Շարունակականություն"
+        ],
+        "optionsAz": [
+          "Oxşarlıq",
+          "Yaxınlıq",
+          "Bağlanma",
+          "Davamlılıq"
+        ],
+        "explanationRu": "Близость: близлежащие объекты группируются.",
+        "questionRu": "Какой принцип гештальта группирует близлежащие объекты?",
+        "explanationHy": "Հարևանություն. մոտակա օբյեկտները խմբավորված են:",
+        "questionHy": "Գեշտալտի ո՞ր սկզբունքն է խմբավորում մոտակա օբյեկտները:",
+        "questionAz": "Hansı Gestalt prinsipi yaxınlıqdakı obyektləri qruplaşdırır?",
+        "explanationAz": "Yaxınlıq: yaxınlıqdakı obyektlər qruplaşdırılıb."
+      },
+      {
+        "id": "q4-3",
+        "question": "Rods in the retina are for:",
+        "questionKa": "ბადურის ჩხირები განკუთვნილია:",
+        "options": [
+          "Color vision",
+          "Dim light vision",
+          "Detail focus",
+          "Depth perception"
+        ],
+        "optionsKa": [
+          "ფერთა მხედველობისთვის",
+          "სუსტ შუქში ხედვისთვის",
+          "დეტალების ფოკუსირებისთვის",
+          "სიღრმის აღქმისთვის"
+        ],
+        "correctIndex": 1,
+        "explanation": "Rods function in dim light.",
+        "explanationKa": "ჩხირები ფუნქციონირებენ სუსტ შუქში.",
+        "optionsRu": [
+          "Цветовое зрение",
+          "Тусклое зрение",
+          "Детальный фокус",
+          "Восприятие глубины"
+        ],
+        "optionsHy": [
+          "Գունավոր տեսողություն",
+          "Թույլ լույսի տեսողություն",
+          "Մանրամասների կենտրոնացում",
+          "Խորության ընկալում"
+        ],
+        "optionsAz": [
+          "Rəng görmə",
+          "Zəif işıq görmə",
+          "Detallara diqqət",
+          "Dərinlik qavrayışı"
+        ],
+        "explanationHy": "Ձողերը գործում են աղոտ լույսի ներքո:",
+        "questionHy": "Ցանցաթաղանթի ձողերը նախատեսված են.",
+        "questionRu": "Палочки в сетчатке предназначены для:",
+        "explanationRu": "Палочки функционируют при тусклом свете.",
+        "questionAz": "Retinada olan çubuqlar aşağıdakılar üçündür:",
+        "explanationAz": "Çubuqlar zəif işıqda işləyir."
+      },
+      {
+        "id": "q4-4",
+        "question": "Converting stimuli to neural signals is:",
+        "questionKa": "სტიმულების ნერვულ სიგნალებად გარდაქმნა არის:",
+        "options": [
+          "Perception",
+          "Transduction",
+          "Accommodation",
+          "Adaptation"
+        ],
+        "optionsKa": [
+          "აღქმა",
+          "ტრანსდუქცია",
+          "აკომოდაცია",
+          "ადაპტაცია"
+        ],
+        "correctIndex": 1,
+        "explanation": "Transduction converts physical energy to signals.",
+        "explanationKa": "ტრანსდუქცია გარდაქმნის ფიზიკურ ენერგიას სიგნალებად.",
+        "optionsRu": [
+          "Восприятие",
+          "Трансдукция",
+          "Размещение",
+          "Приспособление"
+        ],
+        "optionsHy": [
+          "Ընկալում",
+          "Փոխանցում",
+          "Տեղավորում",
+          "Հարմարվողականություն"
+        ],
+        "optionsAz": [
+          "Qavrama",
+          "Transduksiya",
+          "Yerləşdirmə",
+          "Uyğunlaşma"
+        ],
+        "explanationHy": "Փոխակերպումը ֆիզիկական էներգիան փոխակերպում է ազդանշանների:",
+        "questionHy": "Գրգռիչները նյարդային ազդանշանների վերածելը հետևյալն է.",
+        "explanationRu": "Трансдукция преобразует физическую энергию в сигналы.",
+        "questionRu": "Преобразование стимулов в нейронные сигналы – это:",
+        "explanationAz": "Transduksiya fiziki enerjini siqnallara çevirir.",
+        "questionAz": "Stimulların sinir siqnallarına çevrilməsi:"
+      },
+      {
+        "id": "q4-5",
+        "question": "Sound frequency determines:",
+        "questionKa": "ხმის სიხშირე განსაზღვრავს:",
+        "options": [
+          "Loudness",
+          "Pitch",
+          "Timbre",
+          "Duration"
+        ],
+        "optionsKa": [
+          "ხმამაღლობას",
+          "ტონალობას",
+          "ტემბრს",
+          "ხანგრძლივობას"
+        ],
+        "correctIndex": 1,
+        "explanation": "Frequency determines pitch.",
+        "explanationKa": "სიხშირე განსაზღვრავს ტონალობას.",
+        "optionsRu": [
+          "Громкость",
+          "Подача",
+          "Тембр",
+          "Продолжительность"
+        ],
+        "optionsHy": [
+          "Բարձրաձայնություն",
+          "սկիպիդար",
+          "Տեմբր",
+          "Տևողությունը"
+        ],
+        "optionsAz": [
+          "Səs ucalığı",
+          "Pitch",
+          "tembr",
+          "Müddət"
+        ],
+        "questionHy": "Ձայնի հաճախականությունը որոշում է.",
+        "explanationHy": "Հաճախականությունը որոշում է բարձրությունը:",
+        "questionRu": "Частота звука определяет:",
+        "explanationRu": "Частота определяет высоту звука.",
+        "questionAz": "Səs tezliyi müəyyən edir:",
+        "explanationAz": "Tezlik səsi müəyyənləşdirir."
+      },
+      {
+        "id": "q4-6",
+        "question": "The blind spot exists because:",
+        "questionKa": "ბრმა ლაქა არსებობს, რადგან:",
+        "options": [
+          "No cones there",
+          "No receptors where optic nerve exits",
+          "Imperfect lens",
+          "Light damage"
+        ],
+        "optionsKa": [
+          "იქ კონუსები არ არის",
+          "არ არის რეცეპტორები მხედველობის ნერვის გამოსვლის ადგილას",
+          "არასრულყოფილი ლინზა",
+          "სინათლის დაზიანება"
+        ],
+        "correctIndex": 1,
+        "explanation": "No receptors where the optic nerve exits.",
+        "explanationKa": "არ არის რეცეპტორები იქ, სადაც მხედველობის ნერვი გამოდის.",
+        "optionsRu": [
+          "Никаких конусов там нет",
+          "Нет рецепторов в местах выхода зрительного нерва.",
+          "Несовершенная линза",
+          "Легкий урон"
+        ],
+        "optionsHy": [
+          "Այնտեղ կոններ չկան",
+          "Չկան ընկալիչներ, որտեղից օպտիկական նյարդը դուրս է գալիս",
+          "Անկատար ոսպնյակ",
+          "Թեթև վնաս"
+        ],
+        "optionsAz": [
+          "Orada konus yoxdur",
+          "Optik sinirin çıxdığı yerdə reseptorlar yoxdur",
+          "Qüsursuz lens",
+          "Yüngül ziyan"
+        ],
+        "questionRu": "Слепое пятно существует потому, что:",
+        "explanationRu": "Никаких рецепторов там, где выходит зрительный нерв.",
+        "questionHy": "Կույր կետը գոյություն ունի, քանի որ.",
+        "explanationHy": "Չկան ընկալիչներ, որտեղից օպտիկական նյարդը դուրս է գալիս:",
+        "explanationAz": "Optik sinirin çıxdığı yerdə reseptorlar yoxdur.",
+        "questionAz": "Kor nöqtə ona görə yaranır:"
+      },
+      {
+        "id": "q4-7",
+        "question": "Top-down processing is guided by:",
+        "questionKa": "ზემოდან-ქვემოთ დამუშავება ხელმძღვანელობს:",
+        "options": [
+          "Raw sensory data",
+          "Expectations and prior knowledge",
+          "Stimulus intensity",
+          "Receptor cells"
+        ],
+        "optionsKa": [
+          "ნედლი სენსორული მონაცემებით",
+          "მოლოდინებითა და წინარე ცოდნით",
+          "სტიმულის ინტენსივობით",
+          "რეცეპტორული უჯრედებით"
+        ],
+        "correctIndex": 1,
+        "explanation": "Experience and knowledge guide top-down processing.",
+        "explanationKa": "გამოცდილება და ცოდნა ხელმძღვანელობს ზემოდან-ქვემოთ დამუშავებას.",
+        "optionsRu": [
+          "Необработанные сенсорные данные",
+          "Ожидания и предварительные знания",
+          "Интенсивность стимула",
+          "Рецепторные клетки"
+        ],
+        "optionsHy": [
+          "Հում զգայական տվյալներ",
+          "Ակնկալիքներ և նախնական գիտելիքներ",
+          "Խթանի ինտենսիվությունը",
+          "Ընդունիչ բջիջներ"
+        ],
+        "optionsAz": [
+          "Xam sensor məlumat",
+          "Gözləntilər və əvvəlki biliklər",
+          "Stimulun intensivliyi",
+          "Reseptor hüceyrələri"
+        ],
+        "explanationRu": "Опыт и знания определяют обработку сверху вниз.",
+        "questionHy": "Վերևից վար մշակումն առաջնորդվում է հետևյալով.",
+        "questionRu": "Обработка сверху вниз руководствуется:",
+        "explanationHy": "Փորձը և գիտելիքները ուղղորդում են վերևից վար մշակում:",
+        "explanationAz": "Təcrübə və bilik yuxarıdan aşağıya emal bələdçisidir.",
+        "questionAz": "Yuxarıdan aşağıya emal aşağıdakılarla idarə olunur:"
+      },
+      {
+        "id": "q4-8",
+        "question": "Sensory adaptation is:",
+        "questionKa": "სენსორული ადაპტაცია არის:",
+        "options": [
+          "Learning new skills",
+          "Decreased sensitivity to constant stimulus",
+          "Increased pain",
+          "Improved vision"
+        ],
+        "optionsKa": [
+          "ახალი უნარების შესწავლა",
+          "მუდმივ სტიმულზე მგრძნობელობის დაქვეითება",
+          "ტკივილის გაძლიერება",
+          "მხედველობის გაუმჯობესება"
+        ],
+        "correctIndex": 1,
+        "explanation": "Reduced sensitivity to unchanging stimuli.",
+        "explanationKa": "შემცირებული მგრძნობელობა უცვლელ სტიმულებზე.",
+        "optionsRu": [
+          "Обучение новым навыкам",
+          "Снижение чувствительности к постоянным раздражителям.",
+          "Усиление боли",
+          "Улучшенное зрение"
+        ],
+        "optionsHy": [
+          "Նոր հմտություններ սովորելը",
+          "Մշտական ​​խթանների նկատմամբ զգայունության նվազում",
+          "Աճող ցավ",
+          "Բարելավված տեսողություն"
+        ],
+        "optionsAz": [
+          "Yeni bacarıqların öyrənilməsi",
+          "Daimi stimullara həssaslığın azalması",
+          "Artan ağrı",
+          "Təkmilləşdirilmiş görmə"
+        ],
+        "questionRu": "Сенсорная адаптация – это:",
+        "explanationRu": "Снижение чувствительности к неизменным раздражителям.",
+        "explanationHy": "Նվազեցված զգայունությունը անփոփոխ խթանների նկատմամբ:",
+        "questionAz": "Sensor uyğunlaşma:",
+        "questionHy": "Զգայական ադապտացիան հետևյալն է.",
+        "explanationAz": "Dəyişməyən stimullara həssaslığın azalması."
+      },
+      {
+        "id": "q4-9",
+        "question": "Binocular depth cues require:",
+        "questionKa": "ბინოკულარული სიღრმის მინიშნებები მოითხოვს:",
+        "options": [
+          "One eye",
+          "Both eyes",
+          "Hearing",
+          "Touch"
+        ],
+        "optionsKa": [
+          "ერთ თვალს",
+          "ორივე თვალს",
+          "სმენას",
+          "შეხებას"
+        ],
+        "correctIndex": 1,
+        "explanation": "Both eyes needed for binocular depth cues.",
+        "explanationKa": "ბინოკულარული სიღრმის მინიშნებებისთვის ორივე თვალია საჭირო.",
+        "optionsRu": [
+          "Один глаз",
+          "Оба глаза",
+          "Слух",
+          "Трогать"
+        ],
+        "optionsHy": [
+          "Մեկ աչք",
+          "Երկու աչքերը",
+          "Լսողություն",
+          "Հպեք"
+        ],
+        "optionsAz": [
+          "Bir göz",
+          "Hər iki göz",
+          "Eşitmə",
+          "toxunun"
+        ],
+        "questionAz": "Binokulyar dərinlik göstəriciləri tələb edir:",
+        "explanationAz": "Hər iki göz binokulyar dərinlik işarələri üçün lazımdır.",
+        "questionHy": "Երկադիտակի խորության ազդանշանները պահանջում են.",
+        "explanationHy": "Երկու աչքերն էլ անհրաժեշտ են երկդիտակի խորության նշանների համար:",
+        "explanationRu": "Оба глаза необходимы для бинокулярного определения глубины.",
+        "questionRu": "Бинокулярные сигналы глубины требуют:"
+      },
+      {
+        "id": "q4-10",
+        "question": "Opponent-process theory explains:",
+        "questionKa": "ოპონენტ-პროცესის თეორია ხსნის:",
+        "options": [
+          "3D vision",
+          "Color via opposing pairs",
+          "Smell adaptation",
+          "Pain"
+        ],
+        "optionsKa": [
+          "3D მხედველობას",
+          "ფერს საპირისპირო წყვილების მეშვეობით",
+          "სუნის ადაპტაციას",
+          "ტკივილს"
+        ],
+        "correctIndex": 1,
+        "explanation": "Color perception through three opposing pairs.",
+        "explanationKa": "ფერის აღქმა სამი საპირისპირო წყვილის მეშვეობით.",
+        "optionsRu": [
+          "3D видение",
+          "Цвет через противоположные пары",
+          "Адаптация запаха",
+          "Боль"
+        ],
+        "optionsHy": [
+          "3D տեսլական",
+          "Գույնը հակառակ զույգերի միջոցով",
+          "Հոտի հարմարեցում",
+          "Ցավ"
+        ],
+        "optionsAz": [
+          "3D görmə",
+          "Qarşılıqlı cütlər vasitəsilə rəngləyin",
+          "Qoxuya uyğunlaşma",
+          "Ağrı"
+        ],
+        "questionAz": "Rəqib-proses nəzəriyyəsi belə izah edir:",
+        "explanationHy": "Գույնի ընկալումը երեք հակադիր զույգերի միջոցով:",
+        "questionRu": "Теория противодействующего процесса объясняет:",
+        "explanationRu": "Восприятие цвета через три противоположные пары.",
+        "questionHy": "Հակառակորդ-գործընթացի տեսությունը բացատրում է.",
+        "explanationAz": "Üç əks cüt vasitəsilə rəng qavrayışı."
+      }
+    ],
+    "titleHy": "Սենսացիա և ընկալում — Վիկտորինա",
+    "titleRu": "Ощущение и восприятие — Викторина",
+    "titleAz": "Hiss və qavrayış — Viktorina"
+  },
+  {
+    "id": "ch5-quiz",
+    "chapterId": 5,
+    "title": "Consciousness — Quiz",
+    "titleKa": "ცნობიერება — ვიქტორინა",
+    "questions": [
+      {
+        "id": "q5-1",
+        "question": "REM sleep features:",
+        "questionKa": "REM ძილის მახასიათებლებია:",
+        "options": [
+          "Deep relaxation",
+          "Rapid eye movements and vivid dreams",
+          "No brain activity",
+          "Sleepwalking"
+        ],
+        "optionsKa": [
+          "ღრმა მოდუნება",
+          "სწრაფი თვალის მოძრაობები და ნათელი სიზმრები",
+          "ტვინის აქტივობა არ არის",
+          "ძილში სიარული"
+        ],
+        "correctIndex": 1,
+        "explanation": "REM: rapid eye movements and vivid dreaming.",
+        "explanationKa": "REM: სწრაფი თვალის მოძრაობები და ნათელი სიზმრები.",
+        "optionsRu": [
+          "Глубокая релаксация",
+          "Быстрые движения глаз и яркие сны.",
+          "Нет мозговой активности",
+          "Лунатизм"
+        ],
+        "optionsHy": [
+          "Խորը թուլացում",
+          "Աչքերի արագ շարժումներ և վառ երազներ",
+          "Ուղեղի ակտիվություն չկա",
+          "Քնած քայլք"
+        ],
+        "optionsAz": [
+          "Dərin istirahət",
+          "Sürətli göz hərəkətləri və canlı yuxular",
+          "Beyin fəaliyyəti yoxdur",
+          "Yuxuda gəzinti"
+        ],
+        "questionRu": "Особенности быстрого сна:",
+        "explanationRu": "БДГ: быстрые движения глаз и яркие сновидения.",
+        "questionHy": "REM քնի առանձնահատկությունները.",
+        "explanationHy": "REM. աչքերի արագ շարժումներ և վառ երազներ:",
+        "explanationAz": "REM: sürətli göz hərəkətləri və canlı yuxular.",
+        "questionAz": "REM yuxu xüsusiyyətləri:"
+      },
+      {
+        "id": "q5-2",
+        "question": "Freud said dreams represent:",
+        "questionKa": "ფროიდის მიხედვით სიზმრები წარმოადგენს:",
+        "options": [
+          "Random neural firing",
+          "Wish fulfillment",
+          "Memory consolidation",
+          "Nothing meaningful"
+        ],
+        "optionsKa": [
+          "ნეირონების შემთხვევით აქტივაციას",
+          "სურვილის შესრულებას",
+          "მეხსიერების კონსოლიდაციას",
+          "არაფერ მნიშვნელოვანს"
+        ],
+        "correctIndex": 1,
+        "explanation": "Freud: dreams are disguised wish fulfillment.",
+        "explanationKa": "ფროიდი: სიზმრები არის შენიღბული სურვილების შესრულება.",
+        "optionsRu": [
+          "Случайное нейронное срабатывание",
+          "Исполнение желаний",
+          "Консолидация памяти",
+          "Ничего значимого"
+        ],
+        "optionsHy": [
+          "Նյարդային պատահական կրակոց",
+          "Ցանկության կատարում",
+          "Հիշողության համախմբում",
+          "Ոչ մի իմաստալից բան"
+        ],
+        "optionsAz": [
+          "Təsadüfi sinir atəşi",
+          "Arzunun yerinə yetirilməsi",
+          "Yaddaşın konsolidasiyası",
+          "Mənalı heç nə yoxdur"
+        ],
+        "questionHy": "Ֆրոյդն ասում էր, որ երազները ներկայացնում են.",
+        "explanationHy": "Ֆրեյդ. Երազները քողարկված ցանկությունների իրականացում են:",
+        "questionRu": "Фрейд говорил, что сны представляют собой:",
+        "explanationRu": "Фрейд: сны — это замаскированное исполнение желаний.",
+        "questionAz": "Freyd yuxuların aşağıdakıları ifadə etdiyini söylədi:",
+        "explanationAz": "Freyd: yuxular gizlənmiş arzuların yerinə yetirilməsidir."
+      },
+      {
+        "id": "q5-3",
+        "question": "Circadian rhythm is approximately:",
+        "questionKa": "ცირკადული რიტმი დაახლოებით არის:",
+        "options": [
+          "12 hours",
+          "24 hours",
+          "48 hours",
+          "8 hours"
+        ],
+        "optionsKa": [
+          "12 საათი",
+          "24 საათი",
+          "48 საათი",
+          "8 საათი"
+        ],
+        "correctIndex": 1,
+        "explanation": "Roughly 24-hour cycle.",
+        "explanationKa": "დაახლოებით 24-საათიანი ციკლი.",
+        "optionsRu": [
+          "12 часов",
+          "24 часа",
+          "48 часов",
+          "8 часов"
+        ],
+        "optionsHy": [
+          "12 ժամ",
+          "24 ժամ",
+          "48 ժամ",
+          "8 ժամ"
+        ],
+        "optionsAz": [
+          "12 saat",
+          "24 saat",
+          "48 saat",
+          "8 saat"
+        ],
+        "explanationRu": "Примерно 24-часовой цикл.",
+        "explanationHy": "Մոտավորապես 24-ժամյա ցիկլ:",
+        "questionHy": "Circadian ռիթմը մոտավորապես հետևյալն է.",
+        "questionRu": "Циркадный ритм составляет примерно:",
+        "questionAz": "Sirkadiyalı ritm təxminən belədir:",
+        "explanationAz": "Təxminən 24 saatlıq dövr."
+      },
+      {
+        "id": "q5-4",
+        "question": "Sleep deprivation impairs:",
+        "questionKa": "ძილის დეფიციტი აუარესებს:",
+        "options": [
+          "Physical strength",
+          "Concentration and decisions",
+          "Height",
+          "Hearing"
+        ],
+        "optionsKa": [
+          "ფიზიკურ ძალას",
+          "კონცენტრაციასა და გადაწყვეტილებებს",
+          "სიმაღლეს",
+          "სმენას"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sleep loss impairs cognitive function.",
+        "explanationKa": "ძილის დეფიციტი აუარესებს კოგნიტურ ფუნქციას.",
+        "optionsRu": [
+          "Физическая сила",
+          "Концентрация и решения",
+          "Высота",
+          "Слух"
+        ],
+        "optionsHy": [
+          "Ֆիզիկական ուժ",
+          "Համակենտրոնացում և որոշումներ",
+          "Բարձրություն",
+          "Լսողություն"
+        ],
+        "optionsAz": [
+          "Fiziki güc",
+          "Konsentrasiya və qərarlar",
+          "Hündürlük",
+          "Eşitmə"
+        ],
+        "explanationHy": "Քնի կորուստը խաթարում է ճանաչողական գործառույթը:",
+        "questionHy": "Քնի պակասը խանգարում է.",
+        "explanationAz": "Yuxu itkisi koqnitiv funksiyanı pozur.",
+        "questionAz": "Yuxusuzluq pozulur:",
+        "questionRu": "Депривация сна ухудшает:",
+        "explanationRu": "Потеря сна ухудшает когнитивные функции."
+      },
+      {
+        "id": "q5-5",
+        "question": "Activation-synthesis says dreams are:",
+        "questionKa": "აქტივაცია-სინთეზის თეორიის მიხედვით სიზმრები არის:",
+        "options": [
+          "Unconscious wishes",
+          "Brain interpreting random neural activity",
+          "Supernatural",
+          "Repressed memories"
+        ],
+        "optionsKa": [
+          "არაცნობიერი სურვილები",
+          "ტვინი ინტერპრეტაციას უკეთებს შემთხვევით ნეირონულ აქტივობას",
+          "ზებუნებრივი",
+          "ჩახშობილი მოგონებები"
+        ],
+        "correctIndex": 1,
+        "explanation": "Brain makes sense of random neural signals.",
+        "explanationKa": "ტვინი აზრს ანიჭებს შემთხვევით ნეირონულ სიგნალებს.",
+        "optionsRu": [
+          "Бессознательные желания",
+          "Мозг интерпретирует случайную нейронную активность",
+          "сверхъестественное",
+          "Подавленные воспоминания"
+        ],
+        "optionsHy": [
+          "Անգիտակից ցանկություններ",
+          "Ուղեղը մեկնաբանում է պատահական նյարդային գործունեությունը",
+          "Գերբնական",
+          "Բռնադատված հիշողություններ"
+        ],
+        "optionsAz": [
+          "Şüursuz arzular",
+          "Beyin təsadüfi sinir fəaliyyətini şərh edir",
+          "Fövqəltəbii",
+          "Repressiya edilmiş xatirələr"
+        ],
+        "questionHy": "Ակտիվացում-սինթեզն ասում է, որ երազներն են.",
+        "questionRu": "Активация-синтез утверждает, что сны – это:",
+        "questionAz": "Aktivləşdirmə-sintez yuxuların belə olduğunu söyləyir:",
+        "explanationRu": "Мозг воспринимает случайные нейронные сигналы.",
+        "explanationHy": "Ուղեղն իմաստավորում է պատահական նյարդային ազդանշանները:",
+        "explanationAz": "Beyin təsadüfi sinir siqnallarını mənalandırır."
+      },
+      {
+        "id": "q5-6",
+        "question": "Narcolepsy involves:",
+        "questionKa": "ნარკოლეფსია მოიცავს:",
+        "options": [
+          "Inability to sleep",
+          "Sudden sleep attacks",
+          "Snoring",
+          "Nightmares only"
+        ],
+        "optionsKa": [
+          "ძილის უუნარობას",
+          "ძილის უეცარ შეტევებს",
+          "ხვრინვას",
+          "მხოლოდ კოშმარებს"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sudden uncontrollable episodes of falling asleep.",
+        "explanationKa": "ძილის უეცარი, უკონტროლო ეპიზოდები.",
+        "optionsRu": [
+          "Неспособность спать",
+          "Внезапные приступы сна",
+          "Храп",
+          "Только кошмары"
+        ],
+        "optionsHy": [
+          "Քնի անկարողությունը",
+          "Հանկարծակի քնի հարձակումներ",
+          "Խռմփոց",
+          "Միայն մղձավանջներ"
+        ],
+        "optionsAz": [
+          "Yata bilməmək",
+          "Ani yuxu hücumları",
+          "Xorultu",
+          "Yalnız kabuslar"
+        ],
+        "questionRu": "Нарколепсия включает в себя:",
+        "questionHy": "Նարկոլեպսիան ներառում է.",
+        "questionAz": "Narkolepsiya daxildir:",
+        "explanationRu": "Внезапные неконтролируемые эпизоды засыпания.",
+        "explanationHy": "Հանկարծակի քնելու անկառավարելի դրվագներ.",
+        "explanationAz": "Ani nəzarətsiz yuxuya getmə epizodları."
+      },
+      {
+        "id": "q5-7",
+        "question": "Hypnosis is best described as:",
+        "questionKa": "ჰიპნოზი საუკეთესოდ აღიწერება, როგორც:",
+        "options": [
+          "Heightened suggestibility",
+          "Deep sleep",
+          "Unconsciousness",
+          "Anesthesia"
+        ],
+        "optionsKa": [
+          "გაძლიერებული შთაგონებადობა",
+          "ღრმა ძილი",
+          "უგონო მდგომარეობა",
+          "ანესთეზია"
+        ],
+        "correctIndex": 0,
+        "explanation": "Heightened suggestibility and focused attention.",
+        "explanationKa": "გაძლიერებული შთაგონებადობა და ფოკუსირებული ყურადღება.",
+        "optionsRu": [
+          "Повышенная внушаемость",
+          "Глубокий сон",
+          "Бессознательное состояние",
+          "Анестезия"
+        ],
+        "optionsHy": [
+          "Բարձրացված առաջարկություն",
+          "Խորը քուն",
+          "Անգիտակիցություն",
+          "Անզգայացում"
+        ],
+        "optionsAz": [
+          "Gücləndirilmiş təklif",
+          "Dərin yuxu",
+          "Şüursuzluq",
+          "Anesteziya"
+        ],
+        "questionHy": "Հիպնոզը լավագույնս բնութագրվում է հետևյալ կերպ.",
+        "explanationHy": "Բարձրացված առաջարկություն և կենտրոնացված ուշադրություն:",
+        "questionAz": "Hipnoz ən yaxşı şəkildə təsvir edilir:",
+        "explanationAz": "Təklif qabiliyyətini artırdı və diqqəti cəmləşdirdi.",
+        "explanationRu": "Повышенная внушаемость и сосредоточенность внимания.",
+        "questionRu": "Гипноз лучше всего описать как:"
+      },
+      {
+        "id": "q5-8",
+        "question": "Melatonin regulates:",
+        "questionKa": "მელატონინი არეგულირებს:",
+        "options": [
+          "Hunger",
+          "Sleep",
+          "Growth",
+          "Adrenaline"
+        ],
+        "optionsKa": [
+          "შიმშილს",
+          "ძილს",
+          "ზრდას",
+          "ადრენალინს"
+        ],
+        "correctIndex": 1,
+        "explanation": "Melatonin regulates the sleep-wake cycle.",
+        "explanationKa": "მელატონინი არეგულირებს ძილ-ღვიძილის ციკლს.",
+        "optionsRu": [
+          "Голод",
+          "Спать",
+          "Рост",
+          "Адреналин"
+        ],
+        "optionsHy": [
+          "Սով",
+          "Քնել",
+          "Աճ",
+          "Ադրենալին"
+        ],
+        "optionsAz": [
+          "Aclıq",
+          "yatmaq",
+          "Artım",
+          "Adrenalin"
+        ],
+        "questionRu": "Мелатонин регулирует:",
+        "questionHy": "Մելատոնինը կարգավորում է.",
+        "explanationHy": "Մելատոնինը կարգավորում է քուն-արթուն ցիկլը։",
+        "explanationAz": "Melatonin yuxu-oyanma dövrünü tənzimləyir.",
+        "explanationRu": "Мелатонин регулирует цикл сна и бодрствования.",
+        "questionAz": "Melatonin tənzimləyir:"
+      },
+      {
+        "id": "q5-9",
+        "question": "Tolerance means:",
+        "questionKa": "ტოლერანტობა ნიშნავს:",
+        "options": [
+          "You dislike it",
+          "Need more for same effect",
+          "Addicted",
+          "No longer exists"
+        ],
+        "optionsKa": [
+          "არ მოგწონთ",
+          "მეტია საჭირო იმავე ეფექტისთვის",
+          "დამოკიდებული ხართ",
+          "აღარ არსებობს"
+        ],
+        "correctIndex": 1,
+        "explanation": "Needing more to achieve the same effect.",
+        "explanationKa": "მეტი საჭიროება იმავე ეფექტის მისაღწევად.",
+        "optionsRu": [
+          "Тебе это не нравится",
+          "Нужно больше для того же эффекта",
+          "С зависимостью",
+          "Больше не существует"
+        ],
+        "optionsHy": [
+          "Դուք դա չեք սիրում",
+          "Նույն ազդեցության համար ավելին է պետք",
+          "Կախվածություն",
+          "Այլևս գոյություն չունի"
+        ],
+        "optionsAz": [
+          "Bəyənmədin",
+          "Eyni effekt üçün daha çox lazımdır",
+          "Asılı",
+          "Artıq yoxdur"
+        ],
+        "questionAz": "Tolerantlıq deməkdir:",
+        "questionHy": "Հանդուրժողականություն նշանակում է.",
+        "questionRu": "Толерантность означает:",
+        "explanationHy": "Նույն արդյունքին հասնելու համար ավելին է պետք:",
+        "explanationRu": "Для достижения того же эффекта нужно больше.",
+        "explanationAz": "Eyni effekti əldə etmək üçün daha çox ehtiyac var."
+      },
+      {
+        "id": "q5-10",
+        "question": "Delta waves are associated with:",
+        "questionKa": "დელტა ტალღები ასოცირდება:",
+        "options": [
+          "Alertness",
+          "REM sleep",
+          "Deep non-REM sleep",
+          "Light sleep"
+        ],
+        "optionsKa": [
+          "ფხიზლობასთან",
+          "REM ძილთან",
+          "ღრმა არა-REM ძილთან",
+          "მსუბუქ ძილთან"
+        ],
+        "correctIndex": 2,
+        "explanation": "Delta waves characterize deep non-REM sleep.",
+        "explanationKa": "დელტა ტალღები ახასიათებს ღრმა არა-REM ძილს.",
+        "optionsRu": [
+          "Бдительность",
+          "быстрый сон",
+          "Глубокий медленный сон",
+          "Легкий сон"
+        ],
+        "optionsHy": [
+          "Զգոնություն",
+          "REM քուն",
+          "Խորը ոչ REM քուն",
+          "Թեթև քուն"
+        ],
+        "optionsAz": [
+          "Xəbərdarlıq",
+          "REM yuxusu",
+          "Dərin qeyri-REM yuxusu",
+          "Yüngül yuxu"
+        ],
+        "questionHy": "Դելտայի ալիքները կապված են.",
+        "questionRu": "Дельта-волны связаны с:",
+        "questionAz": "Delta dalğaları aşağıdakılarla əlaqələndirilir:",
+        "explanationHy": "Դելտա ալիքները բնութագրում են խորը ոչ REM քունը:",
+        "explanationRu": "Дельта-волны характеризуют глубокий медленный сон.",
+        "explanationAz": "Delta dalğaları dərin qeyri-REM yuxusunu xarakterizə edir."
+      }
+    ],
+    "titleRu": "Сознание — Викторина",
+    "titleHy": "Գիտակցություն — Վիկտորինա",
+    "titleAz": "Şüur - Viktorina"
+  },
+  {
+    "id": "ch6-quiz",
+    "chapterId": 6,
+    "title": "Learning — Quiz",
+    "titleKa": "სწავლა — ვიქტორინა",
+    "questions": [
+      {
+        "id": "q6-1",
+        "question": "In Pavlov's experiment, the bell started as a:",
+        "questionKa": "პავლოვის ექსპერიმენტში ზარი თავდაპირველად იყო:",
+        "options": [
+          "Conditioned stimulus",
+          "Unconditioned stimulus",
+          "Neutral stimulus",
+          "Conditioned response"
+        ],
+        "optionsKa": [
+          "პირობითი სტიმული",
+          "უპირობო სტიმული",
+          "ნეიტრალური სტიმული",
+          "პირობითი რეაქცია"
+        ],
+        "correctIndex": 2,
+        "explanation": "The bell was initially neutral.",
+        "explanationKa": "ზარი თავდაპირველად ნეიტრალური იყო.",
+        "optionsRu": [
+          "Условный раздражитель",
+          "Безусловный раздражитель",
+          "Нейтральный стимул",
+          "Условный ответ"
+        ],
+        "optionsHy": [
+          "Պայմանավորված խթան",
+          "Անվերապահ խթան",
+          "Չեզոք խթան",
+          "Պայմանավորված արձագանք"
+        ],
+        "optionsAz": [
+          "Şərti stimul",
+          "Şərtsiz stimul",
+          "Neytral stimul",
+          "Şərti cavab"
+        ],
+        "explanationHy": "Զանգը սկզբում չեզոք էր։",
+        "questionHy": "Պավլովի փորձի մեջ զանգը սկսվեց հետևյալ կերպ.",
+        "explanationRu": "Колокол изначально был нейтральным.",
+        "questionRu": "В эксперименте Павлова колокол начинался как:",
+        "questionAz": "Pavlovun təcrübəsində zəng belə başladı:",
+        "explanationAz": "Zəng əvvəlcə neytral idi."
+      },
+      {
+        "id": "q6-2",
+        "question": "Negative reinforcement involves:",
+        "questionKa": "უარყოფითი განმტკიცება მოიცავს:",
+        "options": [
+          "Punishment",
+          "Adding unpleasant stimulus",
+          "Removing unpleasant stimulus",
+          "Ignoring behavior"
+        ],
+        "optionsKa": [
+          "დასჯას",
+          "უსიამოვნო სტიმულის დამატებას",
+          "უსიამოვნო სტიმულის მოცილებას",
+          "ქცევის იგნორირებას"
+        ],
+       

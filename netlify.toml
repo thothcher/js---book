@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist/psy/browser"
+
+[build.environment]
+  NODE_VERSION = "20"
+  SECRETS_SCAN_OMIT_PATHS = "server"
+  SECRETS_SCAN_OMIT_KEYS = "PORT,NODE_ENV,ADMIN_EMAIL,GMAIL_APP_PASSWORD,JWT_SECRET,TURSO_DATABASE_URL,TURSO_AUTH_TOKEN,ALLOWED_ORIGINS"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,95 @@
+﻿
+    {
+>     id: 8,
+      title: "Cognition and Intelligence",
+      titleKa: "შემეცნება და ინტელექტი",
+      titleRu: "Познание и интеллект",
+      titleHy: "Ճանաչում և բանականություն",
+      titleAz: "İdrak və İntellekt",
+      description: "Thinking, problem-solving, language, and measuring 
+intelligence.",
+      descriptionKa: "აზროვნება, პრობლემის გადაჭრა, ენა და ინტელექტის 
+გაზომვა.",
+      descriptionRu: "Мышление, решение проблем, язык и измерение интеллекта.",
+      descriptionHy: "Մտածողություն, խնդիրների լուծում, լեզու և ինտելեկտի 
+չափում:",
+      descriptionAz: "Düşünmə, problem həll etmə, dil və zəkanın ölçülməsi.",
+      icon: "mdi:lightbulb-outline",
+      keyTopics: ["Problem Solving","Decision Making","Language","Intelligence 
+Testing","Creativity"],
+      keyTopicsKa: ["პრობლემის გადაჭრა","გადაწყვეტილების 
+მიღება","ენა","დაზვერვის ტესტირება","კრეატიულობა"],
+      keyTopicsRu: ["Решение проблем","Принятие решений","Язык","Тестирование 
+интеллекта","Креативность"],
+      keyTopicsHy: ["Խնդրի լուծում","Որոշումների 
+կայացում","Լեզու","Հետախուզության թեստավորում","Ստեղծագործականություն"],
+      keyTopicsAz: ["Problemin həlli","Qərar vermə","Dil","Kəşfiyyat 
+Testi","Yaradıcılıq"],
+      summary: "Cognition encompasses thinking, reasoning, problem-solving, 
+and language. Examines heuristics and biases, theories of intelligence, IQ 
+testing, and the nature vs. nurture debate.",
+      keyPoints: [
+        "Cognition includes all mental activities: perceiving, thinking, 
+remembering, and communicating.",
+        "Problem-solving strategies: algorithms (step-by-step, guaranteed), 
+heuristics (mental shortcuts, fast but error-prone), and insight (sudden 
+\"aha!\" moments).",
+        "Cognitive biases: Confirmation bias (seeking info that confirms 
+beliefs), Availability heuristic (judging frequency by ease of recall), 
+Anchoring (over-relying on first information), Framing effect (decisions 
+change based on how options are presented).",
+        "Language development: Babbling (6 mo) → One-word (12 mo) → Two-word 
+(24 mo) → Full sentences (3–4 yrs). Chomsky argued humans have an innate 
+Language Acquisition Device (LAD).",
+        "The Sapir-Whorf hypothesis suggests that language shapes thought. The 
+strong version (language determines thought) is mostly rejected; the weak 
+version (language influences thought) has support.",
+        "Intelligence theories: Spearman's g (general intelligence), Gardner's 
+multiple intelligences (8 types), Sternberg's triarchic theory (analytical, 
+creative, practical).",
+        "IQ tests (Stanford-Binet, WAIS) have mean = 100, SD = 15. IQ is 
+50–80% heritable, but environment matters enormously — the Flynn effect shows 
+IQ scores have risen ~3 points per decade worldwide."
+      ],
+      funFact: "The \"Dunning-Kruger effect\" shows that people with the least 
+competence in a skill tend to overestimate their ability the most, while 
+experts tend to underestimate theirs. The less you know, the more confident 
+you feel!",
+      funFactKa: "„დანინგ-კრუგერის ეფექტი“ აჩვენებს, რომ ნაკლებად კომპეტენტური 
+ადამიანები ხშირად აჭარბებენ საკუთარ შესაძლებლობებს.",
+      funFactRu: "«Эффект Даннинга-Крюгера» показывает, что менее компетентные 
+люди часто переоценивают свои способности.",
+      funFactHy: "«Դանինգ-Կրյուգերի էֆեկտը» ցույց է տվել, որ ոչ կոմպետենտ 
+մարդիկ հաճախ գերագնահատում են իրենց կարողությունները:",
+      funFactAz: "\"Dunning-Kruger effekti\" göstərír ki, daha az səriştəli 
+insanlar tez-tez öz qabiliyyətlərini hədsiz dərəzecədə yüksək 
+qiymətləndirirlər.",
+      realWorld: "Cognitive biases affect everyone: doctors, judges, 
+investors. Daniel Kahneman won a Nobel Prize showing how systematic biases in 
+thinking lead to predictable errors in decision-making.",
+      realWorldKa: "კოგნიტური მიკერძოება გავლენას ახდენს ყველაზე: ექიმებზე, 
+მოსამართლეებზე, ინვესტორებზე.",
+      realWorldRu: "Когнитивные искажения влияют на всех: врачей, судей, 
+инвесторов.",
+      realWorldHy: "Կոգնիտիվ կողմնակալությունները ազդում են բոլորի վրա՝ 
+բժիշկների, դատավորների, ներդրողների:",
+      realWorldAz: "Koqnitiv qərəzlər hər kəsə təsir edir: həkimlərə, 
+hakimlərə, investorlara.",
+      keyFigures: ["Alfred Binet","Howard Gardner","Robert Sternberg","Noam 
+Chomsky","Charles Spearman"],
+      keyFiguresKa: ["ალფრედ ბინე","ჰოვარდ გარდნერი","რობერტ სტერნბერგი"],
+      keyFiguresRu: ["Альфред Бине","Говард Гарднер","Роберт Стернберг"],
+      keyFiguresHy: ["Ալֆրեդ Բինե","Հովարդ Գարդներ","Ռոբერտ Ստերնբերգ"],
+      keyFiguresAz: ["Alfred Bine","Hovard Qardner","Robert Sternberq"]
+    },
+    {
+      id: 9,
+      title: "Human Development",
+      titleKa: "ადამიანის განვითარება",
+      titleRu: "Человеческое развитие",
+      titleHy: "Մարդկային զարգացում",
+      titleAz: "İnsan İnkişafı",
+      description: "Physical, cognitive, and social development across the 
+lifespan.",
+
+

@@ -1,0 +1,16 @@
+﻿const fs = require("fs");
+const lines = [];
+lines.push("/**");
+lines.push(" * Static data for Psychology and Life by Philip Zimbardo.");
+lines.push(" */");
+lines.push("");
+lines.push("export interface Chapter { id: number; title: string; titleKa: string; description: string; icon: string; keyTopics: string[]; summary: string; }");
+lines.push("export interface QuizQuestion { id: string; question: string; options: string[]; correctIndex: number; explanation: string; }");
+lines.push("export interface Quiz { id: string; chapterId: number; title: string; questions: QuizQuestion[]; }");
+lines.push("export interface Psychologist { name: string; years: string; photo: string; nationality: string; contribution: string; details: string; field: string; }");
+lines.push("export interface Fact { id: number; text: string; source: string; category: string; icon: string; }");
+lines.push("export interface Story { id: number; title: string; chapterId: number; content: string; moral: string; icon: string; }");
+lines.push("export interface MemoryCard { id: number; term: string; definition: string; category: string; }");
+lines.push("");
+fs.writeFileSync("src/app/data/book-data.ts", lines.join("\n") + "\n", "utf-8");
+console.log("Done: interfaces");

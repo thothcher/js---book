@@ -1,0 +1,87 @@
+﻿
+      keyFiguresRu: ["Иван Павлов","Б.Ф. Скиннер","Альберт Бандура"],
+      keyFiguresHy: ["Իվան Պավլով","Բ.Ֆ. Սկիներ","Ալբերտ Բանդուրա"],
+      keyFiguresAz: ["İvan Pavlov","B.F. Skinner","Albert Bandura"]
+    },
+    {
+>     id: 7,
+      title: "Memory",
+      titleKa: "მეხსიერება",
+      titleRu: "Память",
+      titleHy: "Հիշողություն",
+      titleAz: "Yaddaş",
+      description: "How we encode, store, and retrieve information.",
+      descriptionKa: "როგორ ვაშიფრავთ, ვინახავთ და ვიღებთ ინფორმაციას.",
+      descriptionRu: "Как мы кодируем, храним и извлекаем информацию.",
+      descriptionHy: "Ինչպես ենք մենք կոդավորում, պահպանում և առբերում 
+տեղեկատվությունը:",
+      descriptionAz: "Məlumatı necə kodlaşdırırıq, saxlayırıq və əldə edirik.",
+      icon: "mdi:database-outline",
+      keyTopics: ["Encoding","Storage","Retrieval","Forgetting","Memory 
+Improvement"],
+      keyTopicsKa: ["კოდირება","შენახვა","მოძიება","დავიწყება","მეხსიერების 
+გაუმჯობესება"],
+      keyTopicsRu: 
+["Кодирование","Хранилище","Поиск","Забывчивость","Улучшение памяти"],
+      keyTopicsHy: 
+["Կոդավորում","Պահպանում","Առբերում","Մոռանալով","Հիշողության բարելավում"],
+      keyTopicsAz: ["Üç mərhələli model", "Kodlaşdırma, Saxlama, Bərpa"],
+      summary: "Memory involves encoding, storage, and retrieval. The 
+multi-store model describes sensory, short-term, and long-term memory. Also 
+covers forgetting curves, false memories, and improvement strategies.",
+      summaryKa: "მეხსიერება მოიცავს კოდირებას, შენახვას და აღდგენას. 
+სამსართულიანი მოდელი აღწერს სენსორულ, მოკლევადიან და გრძელვადიან მეხსიერებას.",
+      summaryRu: "Память включает кодирование, хранение и извлечение. 
+Трехступенчатая модель описывает сенсорную, кратковременную и долговременную 
+память.",
+      summaryHy: "Հիշողությունը ներառում է կոդավորում, պահպանում և առբերում: 
+Եռաստիճան մոդելը նկარագրում է զգայական, կարճաժամկետ և երკարաժամկետ 
+հիշողությունը:",
+      summaryAz: "Yaddaş kodlaşdırma, saxlama və bərpadan ibarətdir. Üç 
+mərhələli model sensor, qısamüddətli və uzunmüddətli yaddaşı təsvir edir.",
+      keyPointsKa: [
+        "მეხსიერების სამი ეტაპი: კოდირება, შენახვა, აღდგენა.",
+        "ატკინსონ-შიფრინის მოდელი: სენსორული, მოკლევადიანი და გრძელვადიანი 
+მეხსიერება.",
+        "ებინგჰაუსის დავიწყების მრუდი."
+      ],
+      keyPointsRu: [
+        "Три стадии памяти: кодирование, хранение, поиск.",
+        "Модель Аткинсона-Шиффрина: сенсорная, кратковременная и 
+долговременная память.",
+        "Кривая забывания Эббингауза."
+      ],
+      keyPointsHy: [
+        "Հիշողության երեք փուլ՝ կոդավորում, պահպանում, առբերում:",
+        "Ատկինսոն-Շիֆրինի մոդել՝ զգայական, կարճաժամկետ և երկարաժամկետ 
+հիշողություն:",
+        "Էբինգհաուսի մոռացության կորը:"
+      ],
+      keyPointsAz: [
+        "Yaddaşın üç mərhələsi: Kodlaşdırma, Saxlama, Bərpa.",
+        "Atkinson-Shiffrin modeli: Sensor, qısamüddətli və uzunmüddətli 
+yaddaş.",
+        "Ebbinghaus-un unutma əyrisi."
+      ],
+      funFact: "The \"Google effect\" (digital amnesia) is a real phenomenon: 
+people are less likely to remember information they know they can easily look 
+up online. Your brain outsources memory storage to your phone!",
+      funFactKa: "„Google-ის ეფექტი“ რეალური ფენომენია: ადამიანები ნაკლებად 
+იმახსოვრებენ ინფორმაციას, რომლის მოძიებაც მარტივად შეუძლიათ ინტერნეტში.",
+      funFactRu: "«Эффект Google» — реальный феномен: люди реже запоминают 
+информацию, которую можно легко найти в Интернете.",
+      funFactHy: "«Google-ի էֆեկտը» իրական երևույթ է. մարդիկ ավելի քիչ հակված 
+են հիշել այն տեղեկատվությունը, որը գիտեն, որ կարող են հեշտությամբ գտնել 
+առցանց:",
+      funFactAz: "\"Google effekti\" real fenomendir: insanlar internetdə 
+asanlıqla tapa biləcəkləri məlumatları daha az yadda saxlayırlar.",
+      realWorld: "Spaced repetition (reviewing at increasing intervals) is the 
+single most effective study technique. Apps like Anki use it. Cramming the 
+night before works for short-term recall but fades within days.",
+      realWorldKa: "ინტერვალური გამეორება ყველაზე ეფექტური სასწავლო ტექნიკაა.",
+      realWorldRu: "Интервальные повторения — самый эффективный метод 
+обучения.",
+      realWorldHy: "Ինտերվալային կրკნությունը ուսուցման ամենաարդյունավետ 
+մեթոդն է:",
+
+

@@ -1,0 +1,278 @@
+﻿
+> export const STORIES: Story[] = [
+    {
+      id: 1,
+      title: 'Pavlov\'s Accidental Discovery',
+      titleKa: '\u10DE\u10D0\u10D5\u10DA\u10DD\u10D5\u10D8\u10E1 
+\u10E8\u10D4\u10DB\u10D7\u10EE\u10D5\u10D4\u10D5\u10D8\u10D7\u10D8 
+\u10D0\u10E6\u10DB\u10DD\u10E9\u10D4\u10DC\u10D0',
+      chapterId: 6,
+      icon: 'mdi:bell-ring-outline',
+      content: 'In the 1890s, Russian physiologist Ivan Pavlov was conducting 
+research on the digestive systems of dogs at the Institute of Experimental 
+Medicine in St. Petersburg. His work was meticulous\u2014he had surgically 
+implanted tubes in dogs\' cheeks to precisely measure saliva output when food 
+was presented.\n\nBut something unexpected kept disrupting his carefully 
+controlled experiments. The dogs began salivating before any food appeared. 
+They drooled when they heard the footsteps of the lab assistant. They 
+salivated at the sight of the food bowl, or even when they heard the door 
+open.\n\nRather than dismissing this as a nuisance, Pavlov recognized he had 
+stumbled upon something extraordinary. He called these premature responses 
+"psychic secretions" and redesigned his entire research program to study 
+them.\n\nPavlov began systematically pairing a neutral stimulus\u2014a 
+metronome (often misremembered as a bell)\u2014with the presentation of food. 
+After repeated pairings, the dogs would salivate at the sound of the metronome 
+alone, with no food in sight.\n\nHe documented the entire process with 
+scientific rigor: acquisition (learning the association), extinction 
+(unlearning it when food stops coming), spontaneous recovery (the response 
+returning after a rest period), and generalization (responding to similar 
+sounds).\n\nThis accidental discovery became the foundation of classical 
+conditioning and earned Pavlov the Nobel Prize in Physiology in 1904. His work 
+influenced generations of psychologists, from John Watson to modern 
+neuroscientists studying how the brain forms associations.',
+      contentKa: '1890-\u10D8\u10D0\u10DC 
+\u10EC\u10DA\u10D4\u10D1\u10E8\u10D8, \u10E0\u10E3\u10E1\u10D8 
+\u10E4\u10D8\u10D6\u10D8\u10DD\u10DA\u10DD\u10D2\u10D8 
+\u10D8\u10D5\u10D0\u10DC \u10DE\u10D0\u10D5\u10DA\u10DD\u10D5\u10D8 
+\u10EB\u10D0\u10E6\u10DA\u10D4\u10D1\u10D8\u10E1 
+\u10E1\u10D0\u10ED\u10DB\u10DA\u10D8\u10E1 
+\u10E1\u10D8\u10E1\u10E2\u10D4\u10DB\u10D0\u10E1 
+\u10D8\u10D9\u10D5\u10DA\u10D4\u10D5\u10D3\u10D0 \u10E1\u10D0\u10DC\u10D9\u10E2
+-\u10DE\u10D4\u10E2\u10D4\u10E0\u10D1\u10E3\u10E0\u10D2\u10E8\u10D8. 
+\u10DB\u10D0\u10DC \u10E8\u10D4\u10DC\u10D8\u10E8\u10DC\u10D0, 
+\u10E0\u10DD\u10DB \u10EB\u10D0\u10E6\u10DA\u10D4\u10D1\u10D8 
+\u10E1\u10D0\u10D9\u10D5\u10D4\u10D1\u10E1 
+\u10D3\u10D0\u10D8\u10EC\u10E7\u10D4\u10D1\u10D3\u10DC\u10D4\u10DC 
+\u10E1\u10D0\u10D9\u10D5\u10D4\u10D1\u10D8\u10E1 
+\u10D2\u10D0\u10E0\u10D4\u10E8\u10D4\u10CA \u2014 
+\u10DA\u10D0\u10D1\u10DD\u10E0\u10D0\u10DC\u10E2\u10D8\u10E1 
+\u10DC\u10D0\u10D1\u10D8\u10EF\u10D4\u10D1\u10D8\u10E1 
+\u10D2\u10D0\u10D2\u10DD\u10DC\u10D8\u10E1\u10D0\u10E1. 
+\u10DE\u10D0\u10D5\u10DA\u10DD\u10D5\u10DB\u10D0 
+\u10D0\u10DB\u10D0\u10E8\u10D8 
+\u10DB\u10D4\u10E2\u10E0\u10DD\u10DC\u10DD\u10DB\u10D8\u10E1 
+\u10EE\u10DB\u10D0 \u10E1\u10D0\u10D9\u10D5\u10D4\u10D1\u10E1 
+\u10D3\u10D0\u10E3\u10D9\u10D0\u10D5\u10E8\u10D8\u10E0\u10D0 \u10D3\u10D0 
+\u10D0\u10E6\u10DB\u10DD\u10D0\u10E9\u10D8\u10DC\u10D0 
+\u10D9\u10DA\u10D0\u10E1\u10D8\u10D9\u10E3\u10E0\u10D8 
+\u10D2\u10D0\u10DC\u10DE\u10D8\u10E0\u10DD\u10D1\u10D4\u10D1\u10D0.',
+      moral: 'Great discoveries emerge when curious minds pay attention to the 
+unexpected. Pavlov could have ignored the dogs\' early salivation, but instead 
+he asked "why?" and changed psychology forever.',
+      moralKa: '\u10D3\u10D8\u10D3\u10D8 
+\u10D0\u10E6\u10DB\u10DD\u10E9\u10D4\u10DC\u10D4\u10D1\u10D8 
+\u10D8\u10D1\u10D0\u10D3\u10D4\u10D1\u10D0, \u10E0\u10DD\u10CA 
+\u10EA\u10DC\u10DD\u10D1\u10D8\u10E1\u10DB\u10DD\u10E7\u10D5\u10D0\u10E0\u10D4 
+\u10D2\u10DD\u10DC\u10D4\u10D1\u10D0 
+\u10E7\u10E3\u10E0\u10D0\u10D3\u10E6\u10D4\u10D1\u10D0\u10E1 
+\u10DB\u10DD\u10E3\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10E1 
+\u10DB\u10D8\u10D0\u10E5\u10EA\u10D4\u10D5\u10E1.'
+    },
+    {
+      id: 2,
+      title: 'The Story of Phineas Gage',
+      titleKa: '\u10E4\u10D8\u10DC\u10D4\u10D0\u10E1 
+\u10D2\u10D4\u10D8\u10EF\u10D8\u10E1 
+\u10D8\u10E1\u10E2\u10DD\u10E0\u10D8\u10D0',
+      chapterId: 3,
+      icon: 'fluent:brain-circuit-20-filled',
+      content: 'On September 13, 1848, 25-year-old Phineas Gage was working as 
+a railroad construction foreman in Cavendish, Vermont. His crew was blasting 
+rock to clear a path for new rail tracks. Gage\'s job was to pack explosive 
+powder into drilled holes using a specially made iron tamping rod\u201443 
+inches long, 1.25 inches in diameter, and weighing over 13 pounds.\n\nIn a 
+moment of distraction\u2014perhaps he turned to speak to a colleague\u2014Gage 
+struck the iron rod against the rock before sand had been poured as a buffer. 
+The powder ignited. The explosion launched the iron rod like a missile 
+straight through his skull, entering below his left cheekbone and exiting 
+through the top of his head, landing 80 feet away.\n\nAstonishingly, Gage did 
+not die. He was conscious within minutes, able to walk and talk. The local 
+physician, Dr. John Harlow, treated the gruesome wound. Gage physically 
+recovered over the following months, but something fundamental had 
+changed.\n\nBefore the accident, Gage was described as reliable, 
+well-balanced, and a shrewd businessman\u2014"the most efficient and capable 
+foreman." Afterward, his personality was unrecognizable. He became profane, 
+impulsive, disrespectful, and unable to follow through on plans. Friends said 
+he was "no longer Gage."\n\nHis case became one of the most important in 
+neuroscience history. It provided the first strong evidence that specific 
+brain regions\u2014particularly the prefrontal cortex\u2014are responsible for 
+personality, decision-making, and social behavior. Modern neuroimaging has 
+confirmed the rod destroyed much of his left frontal lobe, especially areas 
+involved in emotional regulation and planning.',
+      contentKa: '1848 \u10EC\u10D4\u10DA\u10E1, 
+\u10E4\u10D8\u10DC\u10D4\u10D0\u10E1 \u10D2\u10D4\u10D8\u10EF\u10D8 
+\u10E0\u10D9\u10D8\u10DC\u10D8\u10D2\u10D6\u10D8\u10E1 
+\u10DB\u10E8\u10D4\u10DC\u10D4\u10D1\u10DA\u10DD\u10D1\u10D8\u10E1 
+\u10DD\u10E1\u10E2\u10D0\u10E2\u10D8 \u10D8\u10E7\u10DD. 
+\u10D0\u10E4\u10D4\u10D7\u10E5\u10D4\u10D1\u10D8\u10E1\u10D0\u10E1 
+\u10E0\u10D9\u10D8\u10DC\u10D8\u10E1 \u10E6\u10D4\u10E0\u10EB\u10D8 
+\u10DB\u10D8\u10E1 \u10D7\u10D0\u10D5\u10D8\u10E1 
+\u10E5\u10D0\u10DA\u10D0\u10E8\u10D8 \u10E8\u10D4\u10D5\u10D8\u10D3\u10D0 
+\u10D3\u10D0 \u10D7\u10D0\u10D5\u10D8\u10E1 
+\u10D6\u10D4\u10DB\u10DD\u10D3\u10D0\u10DC 
+\u10D2\u10D0\u10DB\u10DD\u10D5\u10D8\u10D3\u10D0. 
+\u10D2\u10D4\u10D8\u10EF\u10D8 \u10D2\u10D0\u10D3\u10D0\u10E0\u10E9\u10D0, 
+\u10DB\u10D0\u10D2\u10E0\u10D0\u10DB \u10DB\u10D8\u10E1\u10D8 
+\u10DE\u10D8\u10E0\u10DD\u10D5\u10DC\u10D4\u10D1\u10D0 
+\u10E1\u10E0\u10E3\u10DA\u10D8\u10D0\u10D3 
+\u10E8\u10D4\u10D8\u10EA\u10D5\u10D0\u10DA\u10D0. \u10D4\u10E1 
+\u10E8\u10D4\u10DB\u10D7\u10EE\u10D5\u10D4\u10D5\u10D0 \u10DC\u10D4\u10D8\u10E0
+\u10DD\u10DB\u10D4\u10EA\u10DC\u10D8\u10D4\u10E0\u10D4\u10D1\u10D8\u10E1 
+\u10D8\u10E1\u10E2\u10DD\u10E0\u10D8\u10D0\u10E8\u10D8 
+\u10D4\u10E0\u10D7-\u10D4\u10E0\u10D7\u10D8 
+\u10E7\u10D5\u10D4\u10DA\u10D0\u10D6\u10D4 
+\u10DB\u10DC\u10D8\u10E8\u10D5\u10DC\u10D4\u10DA\u10DD\u10D5\u10D0\u10DC\u10D8 
+\u10D2\u10D0\u10EE\u10D3\u10D0.',
+      moral: 'The brain is the seat of personality\u2014damage to specific 
+areas transforms who we are. Gage\'s case taught us that our sense of self is 
+rooted in biology.',
+      moralKa: '\u10E2\u10D5\u10D8\u10DC\u10D8 
+\u10DE\u10D8\u10E0\u10DD\u10D5\u10DC\u10D4\u10D1\u10D8\u10E1 \u10E1\u10D0\u10D3
+\u10D2\u10E3\u10E0\u10D8\u10D0\u2014\u10D9\u10DD\u10DC\u10D9\u10E0\u10D4\u10E2\
+u10E3\u10DA\u10D8 \u10E3\u10D1\u10DC\u10D4\u10D1\u10D8\u10E1 
+\u10D3\u10D0\u10D6\u10D8\u10D0\u10DC\u10D4\u10D1\u10D0 
+\u10D2\u10D5\u10D0\u10E5\u10CA\u10D4\u10D5\u10E1 \u10E1\u10EE\u10D5\u10D0 
+\u10D0\u10D3\u10D0\u10DB\u10D8\u10D0\u10DC\u10D4\u10D1\u10D0\u10D3.'
+    },
+    {
+      id: 3,
+      title: 'Little Albert and the White Rat',
+      titleKa: '\u10DE\u10D0\u10E2\u10D0\u10E0\u10D0 
+\u10D0\u10DA\u10D1\u10D4\u10E0\u10E2\u10D8 \u10D3\u10D0 
+\u10D7\u10D4\u10D7\u10E0\u10D8 \u10D5\u10D8\u10E0\u10D7\u10EE\u10D0',
+      chapterId: 6,
+      icon: 'mdi:emoticon-cry-outline',
+      content: 'In 1920, John B. Watson and Rosalie Rayner conducted one of 
+psychology\'s most controversial experiments at Johns Hopkins University. 
+Their subject was a 9-month-old infant known as "Little Albert."\n\nAlbert was 
+described as a healthy, stable baby who showed no fear of animals. Watson and 
+Rayner presented him with a white laboratory rat, and Albert reached for it 
+with curiosity and delight. He showed the same calm response to a rabbit, a 
+dog, a monkey, masks, and even burning newspapers.\n\nThen the conditioning 
+began. Each time Albert reached for the white rat, Watson struck a steel bar 
+with a hammer directly behind the infant\'s head, producing a terrifying 
+noise. Albert burst into tears.\n\nAfter just seven pairings of the rat with 
+the loud noise, Albert\'s behavior had fundamentally changed. Now, the mere 
+sight of the white rat\u2014without any noise\u2014caused him to cry, crawl 
+away rapidly, and show visible distress.\n\nMore remarkably, his fear 
+generalized. Albert became afraid of a rabbit, a dog, a fur coat, a Santa 
+Claus mask with a white beard, and even cotton wool. Anything white and furry 
+triggered the same terror.\n\nWatson and Rayner never "unconditioned" 
+Albert\'s fear. The experiment was stopped when Albert\'s mother, a wet nurse 
+at the hospital, left with her child. Albert\'s true identity remained a 
+mystery for decades. Recent research suggests he was Douglas Merritte, who 
+sadly died of hydrocephalus at age six.\n\nThe experiment proved that 
+emotional responses can be learned through classical conditioning. But it also 
+raised profound ethical questions that eventually led to strict research 
+protections for human subjects.',
+      contentKa: '1920 \u10EC\u10D4\u10DA\u10E1, \u10EF\u10DD\u10DC 
+\u10E3\u10DD\u10E2\u10E1\u10DD\u10DC\u10DB\u10D0 \u10D3\u10D0 
+\u10E0\u10DD\u10D6\u10D0\u10DA\u10D8 
+\u10E0\u10D4\u10D8\u10DC\u10D4\u10E0\u10DB\u10D0 
+\u10E9\u10D0\u10D0\u10E2\u10D0\u10E0\u10D4\u10E1 
+\u10D4\u10E0\u10D7-\u10D4\u10E0\u10D7\u10D8 
+\u10E7\u10D5\u10D4\u10DA\u10D0\u10D6\u10D4 
+\u10E1\u10D0\u10D9\u10D0\u10DB\u10D0\u10D7\u10DD 
+\u10D4\u10E5\u10E1\u10DE\u10D4\u10E0\u10D8\u10DB\u10D4\u10DC\u10E2\u10D8. 
+\u10DB\u10D0\u10D7 9 \u10D7\u10D5\u10D8\u10E1 \u10E9\u10D5\u10D8\u10DA\u10E1 
+\u10D7\u10D4\u10D7\u10E0\u10D8 \u10D5\u10D8\u10E0\u10D7\u10EE\u10D0 
+\u10D0\u10E9\u10D5\u10D4\u10DC\u10D4\u10E1 
+\u10EE\u10DB\u10D0\u10DB\u10D0\u10E3\u10DA 
+\u10E1\u10D0\u10E8\u10D8\u10DC\u10D4\u10DA 
+\u10EE\u10DB\u10D0\u10E1\u10D7\u10D0\u10DC \u10D4\u10E0\u10D7\u10D0\u10D3. 7 
+\u10D3\u10D0\u10EC\u10E7\u10D5\u10D8\u10DA\u10D4\u10D1\u10D8\u10E1 
+\u10E8\u10D4\u10DB\u10D3\u10D4\u10D2, 
+\u10D0\u10DA\u10D1\u10D4\u10E0\u10E2\u10D8 
+\u10D5\u10D8\u10E0\u10D7\u10EE\u10D0\u10E1 
+\u10EE\u10D4\u10D3\u10D0\u10D5\u10D3\u10D0 \u10EE\u10DB\u10D8\u10E1 
+\u10D2\u10D0\u10E0\u10D4\u10E8\u10D4\u10CA. \u10D4\u10E1 
+\u10D4\u10E5\u10E1\u10DE\u10D4\u10E0\u10D8\u10DB\u10D4\u10DC\u10E2\u10D8 
+\u10D0\u10DB\u10E2\u10D9\u10D8\u10EA\u10D4\u10D1\u10D3\u10D0, 
+\u10E0\u10DD\u10DB \u10D4\u10DB\u10DD\u10EA\u10D8\u10D4\u10D1\u10D8 
+\u10E8\u10D4\u10D8\u10EB\u10DA\u10D4\u10D1\u10D0 
+\u10E1\u10EC\u10D0\u10D5\u10DA\u10D0.',
+      moral: 'Fears can be learned through association. This historic 
+experiment also taught us the importance of ethical guidelines in research.',
+      moralKa: '\u10E8\u10D8\u10E8\u10D4\u10D1\u10D8 
+\u10E8\u10D4\u10D8\u10EB\u10DA\u10D4\u10D1\u10D0 
+\u10D0\u10E1\u10DD\u10EA\u10D8\u10D0\u10EA\u10D8\u10D8\u10D7 
+\u10E1\u10EC\u10D0\u10D5\u10DA\u10D0. \u10D4\u10E1 
+\u10D4\u10E5\u10E1\u10DE\u10D4\u10E0\u10D8\u10DB\u10D4\u10DC\u10E2\u10D8 
+\u10D4\u10D7\u10D8\u10D9\u10E3\u10E0\u10D8 
+\u10EC\u10D4\u10E1\u10D4\u10D1\u10D8\u10E1 \u10DB\u10DC\u10D8\u10E8\u10D5\u10DC
+\u10D4\u10DA\u10DD\u10D1\u10D0\u10E1\u10D0\u10EA 
+\u10D2\u10D5\u10D0\u10E1\u10EC\u10D0\u10D5\u10DA\u10D0.'
+    },
+    {
+      id: 4,
+      title: 'The Invisible Gorilla',
+      titleKa: '\u10E3\u10EE\u10D8\u10DA\u10D0\u10D5\u10D8 
+\u10D2\u10DD\u10E0\u10D8\u10DA\u10D0',
+      chapterId: 4,
+      icon: 'mdi:eye-off-outline',
+      content: 'In 1999, psychologists Daniel Simons and Christopher Chabris 
+designed an experiment that would challenge our most basic assumptions about 
+awareness. They asked participants to watch a short video of six 
+people\u2014three in white shirts, three in black\u2014passing basketballs to 
+each other.\n\nThe task was simple: count the number of passes made by the 
+white-shirted team. Participants focused intently, tracking each 
+throw.\n\nHalfway through the video, something extraordinary happened. A 
+person in a full gorilla costume walked slowly into the center of the frame, 
+faced the camera, thumped its chest, and walked out. The gorilla was visible 
+for a full nine seconds.\n\nWhen asked afterward, roughly half the 
+participants had absolutely no idea a gorilla had appeared. They were shocked 
+when shown the video again. Some refused to believe it was the same 
+video.\n\nThe experiment demonstrated what Simons and Chabris called 
+"inattentional blindness"\u2014the failure to notice fully visible but 
+unexpected objects when our attention is focused elsewhere. It\'s not that our 
+eyes didn\'t see the gorilla; our brain simply didn\'t process it because it 
+wasn\'t relevant to the counting task.\n\nThis research has profound 
+real-world implications. Radiologists can miss tumors on X-rays when focused 
+on something else. Drivers may not see pedestrians when distracted. 
+Eyewitnesses miss critical details during crimes.\n\nThe invisible gorilla 
+reminds us that seeing and noticing are two fundamentally different cognitive 
+processes, and that our confident sense of awareness is largely an illusion.',
+      contentKa: '1999 \u10EC\u10D4\u10DA\u10E1, 
+\u10E4\u10E1\u10D8\u10E5\u10DD\u10DA\u10DD\u10D2\u10D4\u10D1\u10DB\u10D0 
+\u10DB\u10DD\u10DC\u10D0\u10EC\u10D8\u10DA\u10D4\u10D4\u10D1\u10E1 
+\u10E1\u10D7\u10EE\u10DD\u10D5\u10D4\u10E1 
+\u10D5\u10D8\u10D3\u10D4\u10DD\u10E8\u10D8 
+\u10D1\u10D0\u10E1\u10D9\u10D4\u10E2\u10D1\u10DD\u10DA\u10D8\u10E1 
+\u10D2\u10D0\u10D3\u10D0\u10EA\u10D4\u10DB\u10D4\u10D1\u10D8\u10E1 
+\u10D3\u10D0\u10D7\u10D5\u10DA\u10D0 
+\u10D3\u10D0\u10D4\u10D5\u10D0\u10DA\u10D0. 
+\u10D5\u10D8\u10D3\u10D4\u10DD\u10E8\u10D8 
+\u10D2\u10DD\u10E0\u10D8\u10DA\u10D0\u10E1 
+\u10D9\u10DD\u10E1\u10E2\u10D8\u10E3\u10DB\u10E8\u10D8 
+\u10D2\u10D0\u10DB\u10DD\u10EC\u10E7\u10DD\u10D1\u10D8\u10DA\u10D8 
+\u10D0\u10D3\u10D0\u10DB\u10D8\u10D0\u10DC\u10D8 
+\u10D2\u10D0\u10D8\u10D0\u10E0\u10D0, \u10DB\u10D0\u10D2\u10E0\u10D0\u10DB 
+\u10DB\u10DD\u10DC\u10D0\u10EC\u10D8\u10DA\u10D4\u10D4\u10D1\u10D8\u10E1 
+\u10DC\u10D0\u10EE\u10D4\u10D5\u10D0\u10E0\u10DB\u10D0 \u10D5\u10D4\u10E0 
+\u10E8\u10D4\u10DC\u10D8\u10E8\u10DC\u10D0. \u10D4\u10E1 
+\u10D0\u10E9\u10D5\u10D4\u10DC\u10D4\u10D1\u10E1, \u10E0\u10DD\u10DB 
+\u10EC\u10D4\u10DC\u10D0 \u10D3\u10D0 
+\u10E8\u10D4\u10DB\u10E9\u10DC\u10D4\u10D5\u10D0 
+\u10E1\u10E0\u10E3\u10DA\u10D8\u10D0\u10D3 
+\u10D2\u10D0\u10DC\u10E1\u10EE\u10D5\u10D0\u10D5\u10D4\u10D1\u10E3\u10DA\u10D8 
+\u10DE\u10E0\u10DD\u10EA\u10D4\u10E1\u10D4\u10D1\u10D8\u10D0.',
+      moral: 'Our attention is far more limited than we think. We can look 
+directly at something and still fail to see it if our focus is elsewhere.',
+      moralKa: '\u10E9\u10D5\u10D4\u10DC\u10D8 
+\u10E7\u10E3\u10E0\u10D0\u10D3\u10E6\u10D4\u10D1\u10D0 
+\u10D2\u10D0\u10EA\u10D8\u10DA\u10D4\u10D1\u10D8\u10D7 
+\u10E3\u10E4\u10E0\u10DD 
+\u10E8\u10D4\u10D6\u10E6\u10E3\u10D3\u10E3\u10DA\u10D8\u10D0, 
+\u10D5\u10D8\u10D3\u10E0\u10D4 \u10D2\u10D5\u10D2\u10DD\u10DC\u10D8\u10D0.'
+    },
+    {
+      id: 5,
+      title: 'Harlow\'s Monkeys and the Need for Love',
+      titleKa: '\u10F0\u10D0\u10E0\u10DA\u10DD\u10E3\u10E1 
+\u10DB\u10D0\u10D8\u10DB\u10E3\u10DC\u10D4\u10D1\u10D8 \u10D3\u10D0 
+\u10E1\u10D8\u10E7\u10D5\u10D0\u10E0\u10E3\u10DA\u10D8\u10E1 
+\u10E1\u10D0\u10ED\u10D8\u10E0\u10DD\u10D4\u10D1\u10D0',
+      chapterId: 9,
+      icon: 'mdi:heart-outline',
+
+
