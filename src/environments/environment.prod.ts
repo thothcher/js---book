@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://jslearn-api.onrender.com'
+  apiUrl: 'https://psylearn-api.onrender.com'
 };
